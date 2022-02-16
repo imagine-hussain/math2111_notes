@@ -1,0 +1,115 @@
+\documentclass[12pt, letterpaper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{dirtytalk}                      % \say command for quotes
+\usepackage{ wasysym }
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+\hypersetup {                                % Formatting for hyperlinks
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\graphicspath{'./assets/'}								% Path for images
+
+\pagestyle{fancy}
+\setlength{\headheight}{15pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}	
+\title{Higher Several Variable Calculus \\ Math2111 UNSW}
+\author{Hussain Nawaz \\ hussain.nwz000@gmail.com}
+\date{2022T1}
+
+\rhead{}
+\lhead{}
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+    \section{Curves and Surfaces}
+    \subsection{Curves}
+    \paragraph{Curves}
+    A curve in \(\mathbb{R}^n\) is a vector function
+    \[\mathbf{c}: I \to\mathbb{R}^n,\]
+    where \(I\) is an interval in \(\mathbb{R}\).
+
+    \paragraph{Forms / Notations}
+    Curves may be defined in the following ways:
+    \begin{itemize}
+        \item \textbf{Parametrically} by \(c(t) = \left(x_1(t), x_2(t), \dots, x_n(t)\right)\)
+        \item \textbf{Cartesian} by eliminating the \(t\) variable to get \(y\) in terms of \(x\)
+        \item \textbf{Implicitly} As \(F(x, y) = 0\).
+    \end{itemize}
+
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
+    \newpage
+
+    \section{Analysis}
+
+    \subsection{Assumed}
+    \paragraph{Assumed Concepts from Real Single-Variable Calculus}
+    \begin{itemize}
+        \item limits
+        \item continuity
+        \item differentiability
+        \item integrability
+    \end{itemize}
+
+    \paragraph{Assumed Theorems}
+    \begin{itemize}
+        \item Min/ Max Theorem
+        \item Intermediate Value Theorem
+        \item Mean Value Theorem
+    \end{itemize}
+    
+    \subsection{Limits}
+    Recall that \(\lim_{x\to a} f(x) = L\) requires that for all
+    \(\epsilon > 0\), there exists a \(\delta > 0\) such that
+    if \(|x-a| < \delta\)
+    then
+    \[|f(x) - L|  < \delta.\]
+    
+    
+    
+    \subsection{Metrics}
+    We have metrics (distance functions) as
+    \[m: \mathbb{R}^n\times\mathbb{R}^n \to \mathbb{R}\]
+    satisfying the following 3 axioms.
+    \begin{itemize}
+        \item \textbf{Positive Definite} such that for all \(x,y\in\mathbb{R}^n\),
+        \(m(x,y) > 0\) and, \(m(x,y) = 0\ \Leftrightarrow x = y\).
+        \item \textbf{Symmetric} \(m(x,y) = m(y, x)\).z
+        \item \textbf{Triangle Inequality} such that for all \(x,y,z\in\mathbb{R}^n\),
+        \(m(x,y) + m(y, z) \leq m(x, z)\).
+    \end{itemize}
+
+    \paragraph{Euclidian Distance}
+    We allow the Euclidian distance to be defined as
+    \[d_n(x,y) := ||x-y|| = \sqrt{\sum_{i=1}^{n} (x_i - y_y)^2}\]
+    We often allow \(d\) to be \(d_2\).
+
+    \subsection{Limits of Sequences}
+    \(//\text{soon}^\text{tm}\)
+
+
+\end{document}
