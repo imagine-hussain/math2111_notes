@@ -9,4 +9,6 @@
 \contentsline {subsection}{\numberline {2.2}Limits}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Metrics}{3}{subsection.2.3}%
 \contentsline {paragraph}{Euclidian Distance}{3}{section*.6}%
-\contentsline {subsection}{\numberline {2.4}Limits of Sequences}{3}{subsection.2.4}%
+\contentsline {paragraph}{Norms}{4}{section*.7}%
+\contentsline {paragraph}{Equivalent Metrics}{4}{section*.8}%
+\contentsline {subsection}{\numberline {2.4}Limits of Sequences}{4}{subsection.2.4}%
