@@ -18,4 +18,6 @@
 \contentsline {paragraph}{Limits and Equivalent Metrics}{4}{section*.12}%
 \contentsline {paragraph}{Cauchy Sequences}{4}{section*.13}%
 \contentsline {paragraph}{Cauchy Sequences and Convergence}{5}{section*.14}%
-\contentsline {subsection}{\numberline {2.5}Soon}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}Open and Closed Sets}{5}{subsection.2.5}%
+\contentsline {paragraph}{Definitions}{5}{section*.15}%
+\contentsline {subsection}{\numberline {2.6}Soon}{5}{subsection.2.6}%
