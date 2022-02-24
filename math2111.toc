@@ -24,4 +24,5 @@
 \contentsline {paragraph}{Limit Points and Sets}{5}{section*.17}%
 \contentsline {paragraph}{Variations of a Set}{5}{section*.18}%
 \contentsline {paragraph}{Limit of a Function at a Point}{5}{section*.19}%
-\contentsline {subsection}{\numberline {2.6}Soon}{5}{subsection.2.6}%
+\contentsline {paragraph}{Limits and sequences}{6}{section*.20}%
+\contentsline {subsection}{\numberline {2.6}Soon}{6}{subsection.2.6}%
