@@ -117,7 +117,58 @@
     \[ c\delta (x,y) \leq d(x,y) \leq C \delta(x, y).\]
     
     \subsection{Limits of Sequences}
+
+    \paragraph{Balls} A ball around \(\vec{a}\in \mathbb{R} \) is of radius \( \epsilon \) is the set
+    \[B(\vec{a}, \epsilon), = \{x\in \mathbb{R} : d(\vec{a}, x) < \epsilon\}.\]
+    
+    \paragraph{Limit in Sequence} 
+    For a sequence \( \{x_i\} \) of points in \( \mathbb{R}^n \),
+    \(x\) is the limit of the sequence if and only if 
+    \[\forall \epsilon > 0 \exists N \text{ such that } n \geq N \implies d(x, x_n) \leq \epsilon. \]
+    Equivalently,
+    \[\forall \epsilon > 0 \exists N \text{ such that } n \geq N \implies d(x, x_n) \in B(x, \epsilon).\]
+
+    \paragraph{Theorems with Limits of Sequences}
+    \begin{align*}
+        \text{A sequence \(x_k\) converges to a limit \(x\)}\\
+        &\Leftrightarrow \text{The components of \(x_k\)} \\
+        & \quad \text{converge to the componetents of \(x\)} \\
+        & \Leftrightarrow d(x_k, x) \rightarrow 0.
+    \end{align*}
+
+    \paragraph{Limits and Equivalent Metrics}
+    Suppose that \(d\) and \(\delta\) are two equivalent metrics.
+    That is, \(cd(x,y) \leq \delta (x, y) \leq Cd(x,y)\) for \(c, C > 0\).
+
+    Considering \(d\) as the metric, suppose that 
+    \[x_k \to x\quad\text{ for } x_k, x \in\mathbb{R}^n.\]
+    That is,
+    \[\forall \epsilon > 0, \exists K : k \geq K \implies d(x_k, x) < \epsilon.\]
+    Using \(\delta\), we may make an equivalent statement, choosing
+    \(\epsilon > 0\) such that \(\epsilon' = C\epsilon\).
+    Considering that \(e > 0 \implies \exists K : \forall k \geq K
+    \implies d(x_k, x) < \epsilon\) then, 
+    \[\delta (x_k, x) \leq Cd (x_k, x) < C\epsilon = \epsilon'.\]
+    That is, \(\delta (x_k, x) < \epsilon'.\) Hence \(x_k \to x\)
+    using an equivalent metric \(\delta\).
+
+    \paragraph{Cauchy Sequences}
+    A sequence \(\{x_K\}\in\mathbb{R}\) is a Cauchy sequence if
+    \[
+        \exists \epsilon > 0 \text{ such that } k,I > K 
+        \implies d(x_k, x_l) < \epsilon.
+    \]
+
+    \paragraph{Cauchy Sequences and Convergence}
+    The following are equivalent:
+    \[
+        \text{A sequence \(\{x_k\}\) converges in \(\mathbb{R}^2\)}
+        \quad \Longleftrightarrow \quad
+        \text{\(\{x_k\}\) is a Cauchy Sequence}.
+    \]
+    
+
+    
+    \subsection{Soon}
     \(//\text{soon}^\text{tm}\)
-
-
 \end{document}

@@ -703,6 +703,11 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy5.tfm
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.out
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.out

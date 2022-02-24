@@ -12,3 +12,10 @@
 \contentsline {paragraph}{Norms}{4}{section*.7}%
 \contentsline {paragraph}{Equivalent Metrics}{4}{section*.8}%
 \contentsline {subsection}{\numberline {2.4}Limits of Sequences}{4}{subsection.2.4}%
+\contentsline {paragraph}{Balls}{4}{section*.9}%
+\contentsline {paragraph}{Limit in Sequence}{4}{section*.10}%
+\contentsline {paragraph}{Theorems with Limits of Sequences}{4}{section*.11}%
+\contentsline {paragraph}{Limits and Equivalent Metrics}{4}{section*.12}%
+\contentsline {paragraph}{Cauchy Sequences}{4}{section*.13}%
+\contentsline {paragraph}{Cauchy Sequences and Convergence}{5}{section*.14}%
+\contentsline {subsection}{\numberline {2.5}Soon}{5}{subsection.2.5}%
