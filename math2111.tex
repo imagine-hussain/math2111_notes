@@ -178,6 +178,44 @@
         \item \(x_0\in\Omega\) is a \underline{boundary point} of \(\Omega\) if every ball around \(x_0\) contains points in \(\Omega\) and points not in \(\Omega\).
     \end{itemize}
 
+    \paragraph{Closed Sets}
+    A set \(\Omega \subset \mathbb{R}\) is closed iff and only if it contains all of its boundary points.
+
+    \paragraph{Limit Points and Sets}
+    \(x_0\) is a limit point of \(\Omega\) if there is a sequence \(\{x_i\}\) 
+    in \(\Omega\) with limit \(x_0\) and \(x_i \neq x\).
+
+    \begin{itemize}
+        \item Every interior points of \(\Omega\) is a limit point of \(\Omega\).
+        \item \(x_0\) is not necessarily in \(Omega\)
+        \item A set is closed \(\Leftrightarrow\) it contains all of its limit points.
+    \end{itemize}
+    
+    \paragraph{Variations of a Set}
+    Consider the set \(\Omega \in \mathbb{R}^n\).
+    \begin{itemize}
+        \item The \underline{interior} of \(\Omega\) is the set of all its interior points.
+        \item The \underline{boundary} \(\partial \Omega)\) of \(\Omega\) is the set of all its boundary points.
+        \item The \underline{closure} of \(\Omega\): \(\bar{\Omega} = \Omega \cup \partial \Omega\).
+    \end{itemize}
+    The interior is the largest open subset and the closure is the smallest closed set containing \(\Omega\).
+
+    \paragraph{Limit of a Function at a Point}
+    For \(f: \Omega \subset \mathbb{R}^n \to \mathbb{R}^m\), 
+    \(\lim_{x\to x_0}\) means that 
+    \begin{align*}
+        \forall \epsilon \exists \delta > 0\text{ such that for } x\in\Omega: \\
+        0 < d(x, x_0) < \delta \implies d(f(x), b) < \epsilon.
+    \end{align*}
+    Alternatively,
+    \[
+        x\in B(x_0, \delta) \backslash \{x_0\}
+        \implies f(x)\in B(b, \epsilon).
+    \]
+    It is sufficient to consider the limits of the components of a function.
+
+    
+    
     
     \subsection{Soon}
     \(//\text{soon}^\text{tm}\)

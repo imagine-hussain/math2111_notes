@@ -20,4 +20,8 @@
 \contentsline {paragraph}{Cauchy Sequences and Convergence}{5}{section*.14}%
 \contentsline {subsection}{\numberline {2.5}Open and Closed Sets}{5}{subsection.2.5}%
 \contentsline {paragraph}{Definitions}{5}{section*.15}%
+\contentsline {paragraph}{Closed Sets}{5}{section*.16}%
+\contentsline {paragraph}{Limit Points and Sets}{5}{section*.17}%
+\contentsline {paragraph}{Variations of a Set}{5}{section*.18}%
+\contentsline {paragraph}{Limit of a Function at a Point}{5}{section*.19}%
 \contentsline {subsection}{\numberline {2.6}Soon}{5}{subsection.2.6}%
