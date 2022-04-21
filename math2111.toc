@@ -68,7 +68,11 @@
 \contentsline {paragraph}{Computing a Scalar Line Integral}{12}{section*.47}%
 \contentsline {paragraph}{Elementary Properties of Path Integrals}{12}{section*.48}%
 \contentsline {subsection}{\numberline {8.2}Applications Of Path Integrals}{12}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Line Integrals}{12}{section.9}%
-\contentsline {section}{\numberline {10}Surface Integrals}{12}{section.10}%
-\contentsline {section}{\numberline {11}Integral Theorems}{12}{section.11}%
-\contentsline {section}{\numberline {12}}{12}{section.12}%
+\contentsline {paragraph}{Mass}{12}{section*.49}%
+\contentsline {paragraph}{First Moments About the Coordinate Plane}{12}{section*.50}%
+\contentsline {paragraph}{Coordinates of Center of Mass}{13}{section*.51}%
+\contentsline {paragraph}{Moments of Inertia About Axes}{13}{section*.52}%
+\contentsline {section}{\numberline {9}Vector Line Integrals}{13}{section.9}%
+\contentsline {section}{\numberline {10}Surface Integrals}{13}{section.10}%
+\contentsline {section}{\numberline {11}Integral Theorems}{13}{section.11}%
+\contentsline {section}{\numberline {12}}{13}{section.12}%
