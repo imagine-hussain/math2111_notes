@@ -369,6 +369,17 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/esint.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -719,6 +730,13 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/wasysym/uwasy.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy7.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/uesint.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/uesint.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/uesint.fd
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/esint/uesint.fd
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esint/esint10.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esint/esint10.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esint/esint10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.toc
@@ -745,6 +763,9 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy6.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esint/esint10.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esint/esint10.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esint/esint10.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 OUTPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.toc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -756,6 +777,7 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/wasy/wasy5.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/esint/esint10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm
@@ -782,5 +804,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
