@@ -48,10 +48,16 @@
 \contentsline {paragraph}{Piecewise differentiability}{9}{section*.32}%
 \contentsline {paragraph}{Pointwise convergence}{9}{section*.33}%
 \contentsline {paragraph}{Odd and Evenness}{10}{section*.34}%
-\contentsline {paragraph}{Convergence of Sequences}{10}{section*.35}%
-\contentsline {paragraph}{Pointwise convergence}{10}{section*.36}%
-\contentsline {section}{\numberline {7}Path Integrals}{10}{section.7}%
-\contentsline {section}{\numberline {8}Line Integrals}{10}{section.8}%
-\contentsline {section}{\numberline {9}Surface Integrals}{10}{section.9}%
-\contentsline {section}{\numberline {10}Integral Theorems}{10}{section.10}%
-\contentsline {section}{\numberline {11}}{10}{section.11}%
+\contentsline {subsection}{\numberline {6.5}Convergence of Sequences}{10}{subsection.6.5}%
+\contentsline {paragraph}{Pointwise convergence}{10}{section*.35}%
+\contentsline {paragraph}{Epsilon Delta Definition Pointwise Convergence}{10}{section*.36}%
+\contentsline {paragraph}{Uniform Convergence}{10}{section*.37}%
+\contentsline {paragraph}{Weierstrass test}{10}{section*.38}%
+\contentsline {paragraph}{Norm Convergence}{10}{section*.39}%
+\contentsline {paragraph}{Extending Norm Convergence to L-2}{11}{section*.40}%
+\contentsline {paragraph}{Parseval Theorem}{11}{section*.41}%
+\contentsline {section}{\numberline {7}Path Integrals}{11}{section.7}%
+\contentsline {section}{\numberline {8}Line Integrals}{11}{section.8}%
+\contentsline {section}{\numberline {9}Surface Integrals}{11}{section.9}%
+\contentsline {section}{\numberline {10}Integral Theorems}{11}{section.10}%
+\contentsline {section}{\numberline {11}}{11}{section.11}%

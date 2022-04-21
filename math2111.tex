@@ -385,16 +385,73 @@
         \item \(\int_{-L}^L Odd = 0\).
     \end{itemize}
 
-    \paragraph{Convergence of Sequences}
+    \subsection{Convergence of Sequences}
     
     \paragraph{Pointwise convergence}
     Let \(f_k: \mathbb{R} \to \mathbb{R}\). \(f_k\) converges to \(f\) on
     \([a, b]\) pointwisely iff and only if for all \(x\in[a,b]\),
     \(f_k(x)\to f(x)\) as \(k\to infty\).
 
+    \paragraph{Epsilon Delta Definition Pointwise Convergence}
+    For all \(x\in [a,b]\), \(\epsilon > 0, \exists K\) (which will depend on \(\epsilon, x\) such that
+    \[|f_k(x) - f(x)| \leq \epsilon \quad\forall k \geq K.\]
+
+    \paragraph{Uniform Convergence}
+    Let \(f_k: \mathbb{R}\to \mathbb{R}\). \(f_k\) converges to \(f\) on [a, b] uniformly if and only if
+    for all \(\epsilon > 0, \exists K\) (depending on \(\epsilon\) only) such that
+    \[
+    \sup_{x\in [a,b]} |f_k(x) - f(x)| \leq \epsilon \quad\forall k \geq K.
+    \]
+
+    \paragraph{Weierstrass test}
+    Let \(f_k: \mathbb{R}\to \mathbb{R}\) be a sequence of a function \(f\) defined on \([a, b]\).
+    Suppose that there exists a sequence of numbers \(c_k\) such that
+    \[|f_k(x)| \leq c_k \quad \forall x\in [a, b]\]
+    where \(\sum_{k=1}^\infty c_k\) converges to a real number.
+    Then
+    \(\sum_{k=1}^\infty f_k\) converges uniformly to a function \(f\) on \([a, b]\).
+
+    Note that this test also holds for function \(f: \mathbb{R}^n \to \mathbb{R}\) for \(x\in \Omega\) where \(\Omega\) is a closed bounded set in \(\mathbb{R}^n\).
+
+    \paragraph{Norm Convergence}
+    Using the supremum norm, the definition of uniform convergence can be equivalently written as:
+    for all \(\epsilon > 0, \exists K\) such that
+    \[
+        ||f_k - f|| \leq \epsilon \quad \forall k \geq K.
+    \]
+    Equivalently,
+    \[\lim_{k\to\infty} ||f_k - f|| = 0.\]
+    We may extend this to define norm-convergence for any norm.
+
+    \paragraph{Extending Norm Convergence to L-2}
+    Recall from the previous paragraph that norm-convergence is defined as follows:
+    \[\lim_{k\to\infty} ||f_k - f|| = 0.\]
+    As such, \(L^2\) norm convergence, also knows as mean square convergence
+    is equivalent to the following
+    \[\lim_{k\to\infty} \int_a^b [f_k(x)-f(x)]^2 dx = 0.\]
+
+    \paragraph{Parseval Theorem}
+    Let \(f\) be a \(2\pi\) periodic and bounded function where
+    \(\int_{-pi}^\pi f(x)^2 dx < +\infty\). Then, the Fourier series of \(f\) converges to \(f\) in the mean square sense. Moreover, the Parseval's
+    identity holds
+    \[
+    \int_{-pi}^\pi f(x)^2 = ||f||_2^2 = \frac{\pi}{2}a_0 +
+    \pi \sum_{k=1}^\infty  (a_k^2 +b_k^2).
+    \]
+    This identity continues to hold for \(2L\) periodic functions integrated
+    over \([-L, L]\).
+
+    % TODO: #8 Look at heat equation
     
-    % TODO: Path Integral Notes
+    
     \section{Path Integrals}
+
+    
+    
+    
+    
+    
+    
     % TODO: #5 Line Integral Notes
     \section{Line Integrals}
     % TODO: #6 Surface Integral Notes
