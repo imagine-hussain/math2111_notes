@@ -9,6 +9,7 @@
 \usepackage{dirtytalk}                      % \say command for quotes
 \usepackage{ wasysym }
 \usepackage{graphicx}
+\usepackage{physics}
 
 % Dark Mode
 \usepackage{xcolor}
@@ -444,13 +445,68 @@
     % TODO: #8 Look at heat equation
     
     
+    \section{Vector Fields}
+
+    \subsection{Vector Fields and Flows, Divergence and Curl}
+    \paragraph{Flow Lines}
+    If \(F\) is a vector field, a flow line for \(F\) is a path \(c(t)\)
+    such that
+    \[c'(t) = F(c(t)).\]
+    That is, that \(F\) yields the velocity field of the path \(c(t)\).
+
+    \paragraph{The Del \(\nabla\) operator}
+    The vector differential operator \(\nabla\) may be considered a 
+    symbolic vector.
+    The differential operator may be written as 
+    \[\nabla = \frac{\partial}{\partial x}i + \frac{\partial}{\partial y}j + \frac{\partial}{\partial z}k.\]
+
+    \paragraph{Divergence}
+    Simply put, \[\text{div} F = \div F.\]
+
+    Divergence may be thought as a type of derivative that describes the measure at which 
+    a vector field \textit{spreads away} from a certain point.
+    If the divergence is positive, then there is a net outflow while there is net inflow if the divergence is negative.
+
+    Observe that the divergence of a vector field will be real-valued.
+
+    \paragraph{Curl}
+    If \(F\) is a vector field, then the curl may be defined as
+    \[\mathrm{curl}F = \curl F.\]
+
+    Curl is also analogous to a type of derivative for vector fields. The curl may be though as the measure at which the vector field \textit{swirls} around a point.
+    A positive swirl can be thought of as a counter clockwise rotation.
+
+    Observe that the curl of a vector field is also a vector field.
+
+    % TODO #9 Add vector identities
+    
     \section{Path Integrals}
 
+    \subsection{Path Integrals}
+
+    \paragraph{Path (Scalar Line) Integrals}
+    Suppose that a vector-valued function \(c(t)\) parametrises a 
+    curve \(C\) for \(t\in [a, b]\).
+    The scalar line integral may be thought as the integral of along \(c\).
+
+    \paragraph{Computing a Scalar Line Integral}
+    Let \(c(t)\) parametrise a curve \(C\) for \(t\in [a, b]\).
+    Assume that \(f(x, y, z)\) and \(c(t)\) are continuous.
+    Then,
+    \[
+        \int_{C} f(x, y, z) ds
+        =
+        \int_{a}^{b} f\left(c\left(t\right)\right) \cdot ||c(t)|| dt.
+    \]
+
+    \paragraph{Elementary Properties of Path Integrals}
+    \begin{itemize}
+        \item \(\int_C f_1 ds + \int_C f_2 ds = \int_C(f_1+f_2)ds\),
+        \item \(\int_C\lambda f ds = \lambda \int_C f ds, \quad
+        \lambda\in \mathbb{R}\).
+    \end{itemize}
     
-    
-    
-    
-    
+    \subsection{Applications Of Path Integrals}
     
     % TODO: #5 Line Integral Notes
     \section{Line Integrals}
