@@ -68,32 +68,32 @@
 \contentsline {paragraph}{Curl}{14}{section*.50}%
 \contentsline {subsection}{\numberline {5.2}Vector Identities}{14}{subsection.5.2}%
 \contentsline {paragraph}{Basic Vector Identities}{14}{section*.51}%
-\contentsline {section}{\numberline {6}Path Integrals}{15}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Path Integrals}{15}{subsection.6.1}%
-\contentsline {paragraph}{Path (Scalar Line) Integrals}{15}{section*.52}%
-\contentsline {paragraph}{Computing a Scalar Line Integral}{15}{section*.53}%
-\contentsline {paragraph}{Elementary Properties of Path Integrals}{15}{section*.54}%
-\contentsline {subsection}{\numberline {6.2}Applications Of Path Integrals}{15}{subsection.6.2}%
-\contentsline {paragraph}{Mass}{15}{section*.55}%
+\contentsline {section}{\numberline {6}Path Integrals}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Path Integrals}{16}{subsection.6.1}%
+\contentsline {paragraph}{Path (Scalar Line) Integrals}{16}{section*.52}%
+\contentsline {paragraph}{Computing a Scalar Line Integral}{16}{section*.53}%
+\contentsline {paragraph}{Elementary Properties of Path Integrals}{16}{section*.54}%
+\contentsline {subsection}{\numberline {6.2}Applications Of Path Integrals}{16}{subsection.6.2}%
+\contentsline {paragraph}{Mass}{16}{section*.55}%
 \contentsline {paragraph}{First Moments About the Coordinate Plane}{16}{section*.56}%
 \contentsline {paragraph}{Coordinates of Center of Mass}{16}{section*.57}%
 \contentsline {paragraph}{Moments of Inertia About Axes}{16}{section*.58}%
-\contentsline {section}{\numberline {7}Vector Line Integrals}{16}{section.7}%
-\contentsline {paragraph}{Vector Line Integrals}{16}{section*.59}%
-\contentsline {paragraph}{Computing a Vector Line Integral}{16}{section*.60}%
-\contentsline {paragraph}{Link to Path Integrals}{16}{section*.61}%
+\contentsline {section}{\numberline {7}Vector Line Integrals}{17}{section.7}%
+\contentsline {paragraph}{Vector Line Integrals}{17}{section*.59}%
+\contentsline {paragraph}{Computing a Vector Line Integral}{17}{section*.60}%
+\contentsline {paragraph}{Link to Path Integrals}{17}{section*.61}%
 \contentsline {paragraph}{Summing Paths}{17}{section*.62}%
 \contentsline {paragraph}{Work and Other Alternative Notations}{17}{section*.63}%
 \contentsline {paragraph}{Properties fo Line Integrals}{17}{section*.64}%
-\contentsline {paragraph}{Flow Integrals and Circulation}{17}{section*.65}%
-\contentsline {paragraph}{Flux in the Plane}{17}{section*.66}%
-\contentsline {paragraph}{Calculating Flux Across a Smooth Closed Plane Curve}{17}{section*.67}%
+\contentsline {paragraph}{Flow Integrals and Circulation}{18}{section*.65}%
+\contentsline {paragraph}{Flux in the Plane}{18}{section*.66}%
+\contentsline {paragraph}{Calculating Flux Across a Smooth Closed Plane Curve}{18}{section*.67}%
 \contentsline {subsection}{\numberline {7.1}Fundamental Theorem of Line Integrals}{18}{subsection.7.1}%
 \contentsline {paragraph}{Gradient Fields}{18}{section*.68}%
 \contentsline {paragraph}{Fundamental Theorem for Gradient Vector Fields}{18}{section*.69}%
-\contentsline {paragraph}{Cross Partials of Gradient Vector Fields are Equal}{18}{section*.70}%
-\contentsline {subsection}{\numberline {7.2}Green's Theorem}{18}{subsection.7.2}%
-\contentsline {paragraph}{Green's Theorem: Flux Divergence or Normal Form}{18}{section*.71}%
+\contentsline {paragraph}{Cross Partials of Gradient Vector Fields are Equal}{19}{section*.70}%
+\contentsline {subsection}{\numberline {7.2}Green's Theorem}{19}{subsection.7.2}%
+\contentsline {paragraph}{Green's Theorem: Flux Divergence or Normal Form}{19}{section*.71}%
 \contentsline {paragraph}{Green's Theorem: Circulation-Curl or Tangential Form}{19}{section*.72}%
-\contentsline {paragraph}{Area of a Region}{19}{section*.73}%
-\contentsline {section}{\numberline {8}}{19}{section.8}%
+\contentsline {paragraph}{Area of a Region}{20}{section*.73}%
+\contentsline {section}{\numberline {8}}{21}{section.8}%
