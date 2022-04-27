@@ -479,11 +479,38 @@
 
     Observe that the curl of a vector field is also a vector field.
 
-    % TODO #9 Add vector identities
+    \subsection{Vector Identities}
     
+    
+    \paragraph{Basic Vector Identities}
+    
+    \begin{enumerate}
+        \item \(\nabla(f + g) = \nabla f + \nabla g\)
+        \item \(\nabla (\lambda f) = \lambda \nabla f\) where \(\lambda \in \mathbb{R}\)
+        \item \(\nabla (fg) = g \nabla f + f \nabla g\). You may draw analogies to the product.
+        \item \(\nabla \dfrac{f}{g} = \dfrac{f\nabla g - g\nabla f}{g^2}\) where \(g\neq 0\). This is analogous to the quotient rule.
+        \item \(\div (F + G) = \div F + \div G\)
+        \item \(\curl (F + G) = \curl F + \curl G\)
+        \item \(\div (fF) = f\div F = F\cdot nabla f\)
+        \item \(\div (F\times G) = G \cdot (\curl F) - F \cdot (\curl G)\)
+        \item \(\div(\curl F) = 0\)
+        \item \(\curl (fF) = f\curl F = \nabla f \times F\)
+        \item  \(\curl (\nabla f) = 0\)
+        \item \(\nabla^2 (fg) = f\nabla^2 g + 2((\nabla f \cdot \nabla g)) + g\nabla^2f\)
+        \item \(\div (\nabla \times \nabla g) = 0\)
+        \item \(\div(f\nabla g - g\nabla f) = f\nabla^2 g - g\nabla f^2\)
+    \end{enumerate}
+    
+    % 
+    % 
+    % 
+    % 
+    % 
+
     \section{Path Integrals}
 
     \subsection{Path Integrals}
+
 
     \paragraph{Path (Scalar Line) Integrals}
     Suppose that a vector-valued function \(c(t)\) parametrises a 
