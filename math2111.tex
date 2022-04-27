@@ -237,12 +237,102 @@
     
     
     % TODO: #1 Analysis Notes
-    \section{Analysis}
+    
+    
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
+
     % TODO: #2 Differentiation Notes
     \section{Differentiation}
+
+    \subsection{Differentiability, Derivatives and Affine Approximations}
+
+    \paragraph{Differentiability in \(\mathbb{R}\)}
+    A function \(f: \mathbb{R}\to \mathbb{R}\) being differentiable at some \(a\in \mathbb{R}\)
+    implies that there exists a \textit{good} straight-line approximation to \(f\) at \(a\) called a \textit{tangent line}.
+    This function may be found as
+    \[T(x) = f(a) + f'(a)(x-a) = f(a) -f'(a)a + f'(a)x = y_0 + L(x)\]
+    where for all \(a\), \(y= f(a) - f'(a)a\) and \(L: \mathbb{R}\to \mathbb{R} = f'(a)x\).
+
+	Recall that \[f'(a) = \lim_{x\to a} \frac{f(x) - f(a)}{x-a}\].
+
+    \paragraph{Affine Maps}
+    A function \(T: \mathbb{R}^n \to \mathbb{R}^m\) being affine means that there exists
+    a \(y_0\) such that for all \(x\in \mathbb{R}^n\)
+    \[T(x) = y_0 + L(x)\].
+
+    In \(T: \mathbb{R}\to \mathbb{R}\) this sis of the form \(y = mx+b\).
+
+    A function \(f: \mathbb{R}\to \mathbb{R}\) is differentiable if there is 
+    a good affine approximation to \(f\) of the form
+    \[T(x) = f(a) - f'(a)a + f'(a)x.\]
+    In this context good implies that \(f'(x)\) is defined in the usual manner
+    and exists.
+
+    \paragraph{Differentiability in \(\mathbb{R}^n\to \mathbb{R}^n\)}
+    
+    A function \(f: \Omega\subset \mathbb{R}^n \to \mathbb{R}^m\) is differentiable for some
+    \(a\in\mathbb{\Omega}\) if there exists a linear map \(L: \mathbb{R}n\to \mathbb{R}^m\)
+    such that
+    \[
+    \lim_{x\to a} \frac{
+        \left|\left|f(x) - f(a) -L(x-a)\right|\right|
+    } {
+        \left|\left|L(x-a)\right|\right|
+    } = 0.
+    \]
+
+    Notation: the matrix of the linear map \(L\), the derivative of \(f\) at
+    \(a\) is denoted by \(D_af\).
+
+    \paragraph{Delta Epsilon Definition of Differentiability}
+    A function \(f: \Omega\subset \mathbb{R}\to \mathbb{R}^m\) is 
+    differentiable on \(a\in \Omega\) if there is a linear map \(L: \mathbb{R}^n\to \mathbb{R}^m\)
+    such that \(\forall \epsilon > 0 \exists \delta > 0 \)
+    such that for all \(x\in \Omega\)
+    \[
+    \left|\left|x - a\right|\right| < \delta
+    \Rightarrow
+    \left|\left|f(x) - f(a) - L(x-a)\right|\right|
+    < \epsilon\left|\left|x - a\right|\right|. 
+    \]
+
+	\paragraph{Clairaut's Theorem / Mixed Derivative Theorem}
+	Suppose \(
+	f, \frac{\partial f}{\partial x_i}, \frac{\partial f}{\partial x_j},
+		\frac{\partial^2 f}{\partial x_i \partial x_j},
+		\frac{\partial^2 f}{\partial x_j \partial x_i}
+	\)
+	all exist and are continuous on an open set around \(a\) then
+	\[
+		\frac{\partial^2 f}{\partial x_i \partial x_j}
+		=
+		\frac{\partial^2 f}{\partial x_j \partial x_i}.
+	\]
+	That is, the partial derivatives commute.
+
+	\subsection{Types of Matrices}
+
+
+    
+    
+
     % TODO: #3 Integration Notes
     \section{Integration}
-    
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
+    % 
     % 
     % 
     % 
@@ -462,7 +552,8 @@
     \[\nabla = \frac{\partial}{\partial x}i + \frac{\partial}{\partial y}j + \frac{\partial}{\partial z}k.\]
 
     \paragraph{Divergence}
-    Simply put, \[\text{div} F = \div F.\]
+    Given a field \(F = (f_1, f_2, \dots, f_n)\), the divergence of \(F\) is
+    \[\text{div} F = \div F = \sum_{i=1}^n \nabla f_i.\]
 
     Divergence may be thought as a type of derivative that describes the measure at which 
     a vector field \textit{spreads away} from a certain point.
@@ -500,7 +591,7 @@
         \item \(\div (\nabla \times \nabla g) = 0\)
         \item \(\div(f\nabla g - g\nabla f) = f\nabla^2 g - g\nabla f^2\)
     \end{enumerate}
-    
+
     % 
     % 
     % 

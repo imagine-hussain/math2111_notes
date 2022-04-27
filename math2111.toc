@@ -28,68 +28,74 @@
 \contentsline {subsection}{\numberline {2.6}Pinching and IVT Theorem}{7}{subsection.2.6}%
 \contentsline {paragraph}{Pinching Theorem}{7}{section*.21}%
 \contentsline {paragraph}{IVT}{7}{section*.22}%
-\contentsline {section}{\numberline {3}Analysis}{7}{section.3}%
-\contentsline {section}{\numberline {4}Differentiation}{7}{section.4}%
-\contentsline {section}{\numberline {5}Integration}{7}{section.5}%
-\contentsline {section}{\numberline {6}Fourier Series}{7}{section.6}%
-\contentsline {paragraph}{Fourier Series}{7}{section*.23}%
-\contentsline {subsection}{\numberline {6.1}Inner Products}{7}{subsection.6.1}%
-\contentsline {paragraph}{Inner Products}{7}{section*.24}%
-\contentsline {paragraph}{Usual Inner Products}{7}{section*.25}%
-\contentsline {paragraph}{Inner Product and Orthogonality}{8}{section*.26}%
-\contentsline {subsection}{\numberline {6.2}Norms}{8}{subsection.6.2}%
-\contentsline {paragraph}{Usual Norms}{8}{section*.27}%
-\contentsline {subsection}{\numberline {6.3}Fourier Coefficient and Series}{8}{subsection.6.3}%
+\contentsline {section}{\numberline {3}Differentiation}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Differentiability, Derivatives and Affine Approximations}{7}{subsection.3.1}%
+\contentsline {paragraph}{Differentiability in \(\mathbb {R}\)}{7}{section*.23}%
+\contentsline {paragraph}{Affine Maps}{7}{section*.24}%
+\contentsline {paragraph}{Differentiability in \(\mathbb {R}^n\to \mathbb {R}^n\)}{7}{section*.25}%
+\contentsline {paragraph}{Delta Epsilon Definition of Differentiability}{8}{section*.26}%
+\contentsline {paragraph}{Clairaut's Theorem / Mixed Derivative Theorem}{8}{section*.27}%
+\contentsline {subsection}{\numberline {3.2}Types of Matrices}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Integration}{8}{section.4}%
+\contentsline {section}{\numberline {5}Fourier Series}{8}{section.5}%
 \contentsline {paragraph}{Fourier Series}{8}{section*.28}%
-\contentsline {paragraph}{Fourier Coefficients}{8}{section*.29}%
-\contentsline {subsection}{\numberline {6.4}Convergence of Fourier Series}{9}{subsection.6.4}%
-\contentsline {paragraph}{Continuity}{9}{section*.30}%
-\contentsline {paragraph}{Piecewise Continuity}{9}{section*.31}%
-\contentsline {paragraph}{Piecewise differentiability}{9}{section*.32}%
-\contentsline {paragraph}{Pointwise convergence}{9}{section*.33}%
-\contentsline {paragraph}{Odd and Evenness}{10}{section*.34}%
-\contentsline {subsection}{\numberline {6.5}Convergence of Sequences}{10}{subsection.6.5}%
-\contentsline {paragraph}{Pointwise convergence}{10}{section*.35}%
-\contentsline {paragraph}{Epsilon Delta Definition Pointwise Convergence}{10}{section*.36}%
-\contentsline {paragraph}{Uniform Convergence}{10}{section*.37}%
-\contentsline {paragraph}{Weierstrass test}{10}{section*.38}%
-\contentsline {paragraph}{Norm Convergence}{10}{section*.39}%
-\contentsline {paragraph}{Extending Norm Convergence to L-2}{11}{section*.40}%
-\contentsline {paragraph}{Parseval Theorem}{11}{section*.41}%
-\contentsline {section}{\numberline {7}Vector Fields}{11}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Vector Fields and Flows, Divergence and Curl}{11}{subsection.7.1}%
-\contentsline {paragraph}{Flow Lines}{11}{section*.42}%
-\contentsline {paragraph}{The Del \(\nabla \) operator}{11}{section*.43}%
-\contentsline {paragraph}{Divergence}{11}{section*.44}%
-\contentsline {paragraph}{Curl}{12}{section*.45}%
-\contentsline {subsection}{\numberline {7.2}Vector Identities}{12}{subsection.7.2}%
-\contentsline {paragraph}{Basic Vector Identities}{12}{section*.46}%
-\contentsline {section}{\numberline {8}Path Integrals}{12}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Path Integrals}{12}{subsection.8.1}%
-\contentsline {paragraph}{Path (Scalar Line) Integrals}{12}{section*.47}%
-\contentsline {paragraph}{Computing a Scalar Line Integral}{13}{section*.48}%
-\contentsline {paragraph}{Elementary Properties of Path Integrals}{13}{section*.49}%
-\contentsline {subsection}{\numberline {8.2}Applications Of Path Integrals}{13}{subsection.8.2}%
-\contentsline {paragraph}{Mass}{13}{section*.50}%
-\contentsline {paragraph}{First Moments About the Coordinate Plane}{13}{section*.51}%
-\contentsline {paragraph}{Coordinates of Center of Mass}{13}{section*.52}%
-\contentsline {paragraph}{Moments of Inertia About Axes}{13}{section*.53}%
-\contentsline {section}{\numberline {9}Vector Line Integrals}{13}{section.9}%
-\contentsline {paragraph}{Vector Line Integrals}{13}{section*.54}%
-\contentsline {paragraph}{Computing a Vector Line Integral}{14}{section*.55}%
-\contentsline {paragraph}{Link to Path Integrals}{14}{section*.56}%
-\contentsline {paragraph}{Summing Paths}{14}{section*.57}%
-\contentsline {paragraph}{Work and Other Alternative Notations}{14}{section*.58}%
-\contentsline {paragraph}{Properties fo Line Integrals}{14}{section*.59}%
-\contentsline {paragraph}{Flow Integrals and Circulation}{14}{section*.60}%
-\contentsline {paragraph}{Flux in the Plane}{15}{section*.61}%
-\contentsline {paragraph}{Calculating Flux Across a Smooth Closed Plane Curve}{15}{section*.62}%
-\contentsline {subsection}{\numberline {9.1}Fundamental Theorem of Line Integrals}{15}{subsection.9.1}%
-\contentsline {paragraph}{Gradient Fields}{15}{section*.63}%
-\contentsline {paragraph}{Fundamental Theorem for Gradient Vector Fields}{15}{section*.64}%
-\contentsline {paragraph}{Cross Partials of Gradient Vector Fields are Equal}{15}{section*.65}%
-\contentsline {subsection}{\numberline {9.2}Green's Theorem}{16}{subsection.9.2}%
-\contentsline {paragraph}{Green's Theorem: Flux Divergence or Normal Form}{16}{section*.66}%
-\contentsline {paragraph}{Green's Theorem: Circulation-Curl or Tangential Form}{16}{section*.67}%
-\contentsline {paragraph}{Area of a Region}{16}{section*.68}%
-\contentsline {section}{\numberline {10}}{16}{section.10}%
+\contentsline {subsection}{\numberline {5.1}Inner Products}{8}{subsection.5.1}%
+\contentsline {paragraph}{Inner Products}{8}{section*.29}%
+\contentsline {paragraph}{Usual Inner Products}{8}{section*.30}%
+\contentsline {paragraph}{Inner Product and Orthogonality}{9}{section*.31}%
+\contentsline {subsection}{\numberline {5.2}Norms}{9}{subsection.5.2}%
+\contentsline {paragraph}{Usual Norms}{9}{section*.32}%
+\contentsline {subsection}{\numberline {5.3}Fourier Coefficient and Series}{9}{subsection.5.3}%
+\contentsline {paragraph}{Fourier Series}{9}{section*.33}%
+\contentsline {paragraph}{Fourier Coefficients}{9}{section*.34}%
+\contentsline {subsection}{\numberline {5.4}Convergence of Fourier Series}{10}{subsection.5.4}%
+\contentsline {paragraph}{Continuity}{10}{section*.35}%
+\contentsline {paragraph}{Piecewise Continuity}{10}{section*.36}%
+\contentsline {paragraph}{Piecewise differentiability}{10}{section*.37}%
+\contentsline {paragraph}{Pointwise convergence}{10}{section*.38}%
+\contentsline {paragraph}{Odd and Evenness}{11}{section*.39}%
+\contentsline {subsection}{\numberline {5.5}Convergence of Sequences}{11}{subsection.5.5}%
+\contentsline {paragraph}{Pointwise convergence}{11}{section*.40}%
+\contentsline {paragraph}{Epsilon Delta Definition Pointwise Convergence}{11}{section*.41}%
+\contentsline {paragraph}{Uniform Convergence}{11}{section*.42}%
+\contentsline {paragraph}{Weierstrass test}{11}{section*.43}%
+\contentsline {paragraph}{Norm Convergence}{11}{section*.44}%
+\contentsline {paragraph}{Extending Norm Convergence to L-2}{12}{section*.45}%
+\contentsline {paragraph}{Parseval Theorem}{12}{section*.46}%
+\contentsline {section}{\numberline {6}Vector Fields}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Vector Fields and Flows, Divergence and Curl}{12}{subsection.6.1}%
+\contentsline {paragraph}{Flow Lines}{12}{section*.47}%
+\contentsline {paragraph}{The Del \(\nabla \) operator}{12}{section*.48}%
+\contentsline {paragraph}{Divergence}{12}{section*.49}%
+\contentsline {paragraph}{Curl}{13}{section*.50}%
+\contentsline {subsection}{\numberline {6.2}Vector Identities}{13}{subsection.6.2}%
+\contentsline {paragraph}{Basic Vector Identities}{13}{section*.51}%
+\contentsline {section}{\numberline {7}Path Integrals}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Path Integrals}{13}{subsection.7.1}%
+\contentsline {paragraph}{Path (Scalar Line) Integrals}{13}{section*.52}%
+\contentsline {paragraph}{Computing a Scalar Line Integral}{14}{section*.53}%
+\contentsline {paragraph}{Elementary Properties of Path Integrals}{14}{section*.54}%
+\contentsline {subsection}{\numberline {7.2}Applications Of Path Integrals}{14}{subsection.7.2}%
+\contentsline {paragraph}{Mass}{14}{section*.55}%
+\contentsline {paragraph}{First Moments About the Coordinate Plane}{14}{section*.56}%
+\contentsline {paragraph}{Coordinates of Center of Mass}{14}{section*.57}%
+\contentsline {paragraph}{Moments of Inertia About Axes}{14}{section*.58}%
+\contentsline {section}{\numberline {8}Vector Line Integrals}{14}{section.8}%
+\contentsline {paragraph}{Vector Line Integrals}{14}{section*.59}%
+\contentsline {paragraph}{Computing a Vector Line Integral}{15}{section*.60}%
+\contentsline {paragraph}{Link to Path Integrals}{15}{section*.61}%
+\contentsline {paragraph}{Summing Paths}{15}{section*.62}%
+\contentsline {paragraph}{Work and Other Alternative Notations}{15}{section*.63}%
+\contentsline {paragraph}{Properties fo Line Integrals}{15}{section*.64}%
+\contentsline {paragraph}{Flow Integrals and Circulation}{15}{section*.65}%
+\contentsline {paragraph}{Flux in the Plane}{16}{section*.66}%
+\contentsline {paragraph}{Calculating Flux Across a Smooth Closed Plane Curve}{16}{section*.67}%
+\contentsline {subsection}{\numberline {8.1}Fundamental Theorem of Line Integrals}{16}{subsection.8.1}%
+\contentsline {paragraph}{Gradient Fields}{16}{section*.68}%
+\contentsline {paragraph}{Fundamental Theorem for Gradient Vector Fields}{16}{section*.69}%
+\contentsline {paragraph}{Cross Partials of Gradient Vector Fields are Equal}{16}{section*.70}%
+\contentsline {subsection}{\numberline {8.2}Green's Theorem}{17}{subsection.8.2}%
+\contentsline {paragraph}{Green's Theorem: Flux Divergence or Normal Form}{17}{section*.71}%
+\contentsline {paragraph}{Green's Theorem: Circulation-Curl or Tangential Form}{17}{section*.72}%
+\contentsline {paragraph}{Area of a Region}{17}{section*.73}%
+\contentsline {section}{\numberline {9}}{17}{section.9}%
