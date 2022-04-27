@@ -96,4 +96,3 @@
 \contentsline {paragraph}{Green's Theorem: Flux Divergence or Normal Form}{19}{section*.71}%
 \contentsline {paragraph}{Green's Theorem: Circulation-Curl or Tangential Form}{19}{section*.72}%
 \contentsline {paragraph}{Area of a Region}{20}{section*.73}%
-\contentsline {section}{\numberline {8}}{21}{section.8}%

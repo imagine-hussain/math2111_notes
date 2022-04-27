@@ -623,6 +623,9 @@ INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math211
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/differentiability.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/differentiability.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/differentiability.aux
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.aux
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.aux
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/fourier_series.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/fourier_series.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/fourier_series.aux
@@ -812,6 +815,17 @@ INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math211
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/differentiability.tex
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/differentiability.tex
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
+OUTPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.aux
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.tex
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/fourier_series.tex
 OUTPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/fourier_series.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/fourier_series.tex
@@ -861,6 +875,9 @@ INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math211
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/differentiability.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/differentiability.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/differentiability.aux
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.aux
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.aux
+INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/integration.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/fourier_series.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/fourier_series.aux
 INPUT /Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/fourier_series.aux
