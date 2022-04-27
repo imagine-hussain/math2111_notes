@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1651065887 "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.tex" "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.pdf" "math2111" 1651065887
-  "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.aux" 1651065887 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.tex" 1651065882 30966 160ee96db876819f12fed6592b9f66fc ""
+["pdflatex"] 1651066569 "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.tex" "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.pdf" "math2111" 1651066573
+  "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.aux" 1651066570 12438 b43c3697e140b02de91e6028f76b5be7 ""
+  "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.tex" 1651066569 31583 0f3e63b30abc2f14439491ce090e7bc1 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -134,14 +134,15 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1627316828 2724738 0e33648434a4edf94472960464fe1417 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "math2111.aux" 0 -1 0 "pdflatex"
-  "math2111.out" 0 -1 0 "pdflatex"
-  "math2111.tex" 1651065882 30966 160ee96db876819f12fed6592b9f66fc ""
+  "math2111.aux" 1651066570 12438 b43c3697e140b02de91e6028f76b5be7 "pdflatex"
+  "math2111.out" 1651066570 4503 316c0de957afe5e18900ee8bc0bba758 "pdflatex"
+  "math2111.tex" 1651066569 31583 0f3e63b30abc2f14439491ce090e7bc1 ""
+  "math2111.toc" 1651066570 7525 51698dd229e42d0b992f3753ca539c0b "pdflatex"
   (generated)
   "math2111.toc"
-  "math2111.pdf"
-  "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.pdf"
+  "math2111.aux"
   "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.log"
   "math2111.out"
-  "math2111.aux"
+  "/Users/hussainnawaz/math/math2111_Higher_Several_Variable_Calculus/math2111_notes/math2111.pdf"
+  "math2111.pdf"
   "math2111.log"
