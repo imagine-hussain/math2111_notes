@@ -13,9 +13,9 @@
 \usepackage{esint}
 
 % Dark Mode
-\usepackage{xcolor}
-\pagecolor[rgb]{0,0,0} %black
-\color[rgb]{1, 1, 1} %white
+% \usepackage{xcolor}
+% \pagecolor[rgb]{0,0,0} %black
+% \color[rgb]{1, 1, 1} %white
 
 
 \usepackage{hyperref}
@@ -652,12 +652,59 @@
     Equivalently,
     \[\curl F = 0.\]
 
-    \subsection{Greens Theorem}
+    \subsection{Green's Theorem}
+    Green's Theorem connects double integrals and line integrals.
+
     
-    % TODO: #6 Surface Integral Notes
-    \section{Surface Integrals}
-    % TODO: #7 Integral Theorems Notes
-    \section{Integral Theorems}
+    \paragraph{Green's Theorem: Flux Divergence or Normal Form}
+    Let \(D\) be a bounded simple region in \(\mathbb{R}^2\) with a nonempty interior
+    whose boundary consists of a finite number of smooth curves.
+    Let \(C\)be the boundary of \(D\) with a positive (counter-clockwise) direction.
+    Let \(F=Mi+Nj\) be a continuously different boundary vector field on D.
+
+    Then, the outward flux of \(F\) across the curve \(C\) equals the double
+    integral of divergence \(\div F\) over \(D\). That is,
+    \[
+        \oint_C (F\cdot \hat{n})ds = \oint_C -Ndx + Mdy
+        = \int\int_D  \left(\frac{\partial M}{\partial x} + \frac{\partial N}{\partial Y}\right).
+    \]
+    
+    Once again, note the assumptions:
+    \begin{itemize}
+        \item \(D\) is bounded and simple with a non-empty interior,
+        \item The boundary \(C\) is oriented in the positive (counter-clockwise) direction,
+        and is the finite union of smooth curves,
+        \item The vector field \(F\) is continuously differentiable on \(D\).
+    \end{itemize}
+    
+    \paragraph{Green's Theorem: Circulation-Curl or Tangential Form}
+    Let \(D\) be a bounded simple region in \(\mathbb{R}^2\) with a nonempty interior
+    whose boundary consists of a finite number of smooth curves.
+    Let \(C\)be the boundary of \(D\) with a positive (counter-clockwise) direction.
+    Let \(F=Mi+Nj\) be a continuously different boundary vector field on D.
+    
+    Then, the counter-clockwise circulation of \(F\) around \(C\) equals the double
+    integral of \((\curl F)\cdot k\) over \(D\).
+    That is,
+    \[
+        \oint_C (F\cdot \hat{T}) ds =      
+        \oint_C Mdx + Ndy = 
+        \int\int_D  \left(\frac{\partial N}{\partial x} - \frac{\partial M}{\partial y}\right) dx dy.
+    \]
+
+    \paragraph{Area of a Region}
+    Let \(D\) be a simple and bounded region with a non-empty interior and let \(C\)
+    be the boundary of \(D\) which is the finite union of smooth curves.
+    Then, the area of \(D\) can be calculated as such
+    \[
+    \text{Area}(D) = \frac{1}{2} \oint_C \left(-y dx + xdy\right).
+    \]
+
+    
+    % % TODO: #6 Surface Integral Notes
+    % \section{Surface Integrals}
+    % % TODO: #7 Integral Theorems Notes
+    % \section{Integral Theorems}
 
     
     
