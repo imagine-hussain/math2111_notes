@@ -68,18 +68,147 @@ That is, the partial derivatives commute.
 
 \paragraph{Differentiability and Continuity} Differentiability implies continuity.
 However, continuity does not imply differentiability.
+The proof of this is contingent on the fact that for \(x\in \mathbb{R}^n\)
+and a \(m\times n\) matrix \(L\)
+\[\lim x\to 0 \left|\left|Lx\right|\right| = 0.\]
+
+\paragraph{Partial Derivatives and Differentiability}
+Suppose that \(\Omega\subset \mathbb{R}^n\) is open and \(f: \Omega \to \mathbb{R}^m\).
+If all partial derivatives \(\dfrac{\partial f_j}{\partial x_i}\) exist
+for integers \(i \in [1, n]\), \(j\in [1, m]\) then
+\(f\) is differentiable on \(\Omega\).
 
 \subsection{Gradients, Affine Approximations and Matrices}
 
 \paragraph{Jacobian Matrices}
+Suppose that all partial derivatives of \(f:\Omega \subset \mathbb{R}^n \to \mathbb{R}^m\)
+exist for some \(a\in \Omega\). Then, the Jacobian matrix of \(f\)
+\[
+    J_a f = 
+    \begin{pmatrix}
+    \dfrac{\partial f_1}{\partial x_1} & \dfrac{\partial f_1}{\partial x_2} \cdots & \dfrac{\partial f_1}{\partial x_n} \\
+    \dfrac{\partial f_2}{\partial x_1} & \dfrac{\partial f_2}{\partial x_2} \cdots & \dfrac{\partial f_2}{\partial x_n} \\
+    \vdots & \vdots & \ddots \vdots \\
+    \dfrac{\partial f_n}{\partial x_1} & \dfrac{\partial f_n}{\partial x_2} \cdots & \dfrac{\partial f_n}{\partial x_n} \\
+    \end{pmatrix}
+\]
+may be evaluated at a point \(a\).
+Where \(f\) is differentiable, its derivative is given by the Jacobian matrix.
 
+Note however, that the Jacobian Matrix may exist even where \(f\) is not differentiable.
 
+\subsection{Gradients, Tangent Planes and Affine Approximations}
 
-% 
-% - Jacobian Matrix
-% - Differentiable -> continuous
-% - Gradient
-% - Affine Approximations
+\paragraph{Gradient}
+For \(f: \Omega\subset \mathbb{R}^n\to \mathbb{R}\), if the Jacobian exists,
+then it is given by the \(1\times n\) matrix
+\[
+    Jf = \begin{pmatrix}
+        \dfrac{\partial f}{\partial x_1} \\
+        \dfrac{\partial f}{\partial x_2} \\
+        \cdots                           \\
+        \dfrac{\partial f}{\partial x_n} \\
+    \end{pmatrix}.
+\]
+This is equivalent to the gradient of \(f\). That is,
+\[
+    \text{grad}(f) = \grad f = 
+    \begin{pmatrix}
+        \dfrac{\partial f}{\partial x_1} \\
+        \dfrac{\partial f}{\partial x_2} \\
+        \cdots                           \\
+        \dfrac{\partial f}{\partial x_n} \\
+    \end{pmatrix}.
+\]
+
+\paragraph{Affine Approximations}
+Allow \(f:\Omega\subset\mathbb{R}^n \to \mathbb{R}\) to be a differentiable
+function at \(a\in \Omega\).
+The best affine approximation to \(f\) at \(a\) may be written in terms of
+the gradient vector as
+\[
+    T(x) = f(a) + \grad f(a) \cdot (x-a).
+\]
+
+\paragraph{Tangent Planes}
+The tangent plane to a function \(z = f(x, y)\) is given by
+\[ z = T(x, y).\]
+
+\subsection{Chain Rule, Directional Derivatives and Tangent Planes}
+
+\paragraph{Chain Rule}
+Suppose that \(f: \Omega \subset \mathbb{R}^n \to \mathbb{R}^m\) and
+\(g: \Omega' \subset \mathbb{R}^m \to \mathbb{R}^P\) where
+\(f(\Omega) = \Omega'\).
+If \(f\) and \(g\) are both differentiable then, so is
+\(g\circ f: \Omega \to \mathbb{R}^p\) such that
+\[
+    D_a (g\circ f) = D_(f_(a))g D_a f.
+\]
+Equivalently,
+\[
+    D(g\circ f)(a) = Dg(f(a)) Df(a).
+\]
+
+\paragraph{Directional Derivative}
+The directional derivative of 
+\(f: \Omega \subset \mathbb{R}^n \to \mathbb{R}^m\)
+in the direction of the unit vector \(u\) at a point \(a\in\Omega\) is
+\[
+    D_u f(a) = f_{u}'(a)
+    =
+    \lim_{t\to 0}  \dfrac{f(a + t u) - f(a)}{t}.
+\]
+
+Equivalently, if \(f: \Omega \subset \mathbb{R}^n \to \mathbb{R}\)
+is differentiable at \(a\) then for a unit vector \(u\)
+\[
+    D_u f(a) = Df(a) \cdot u = \grad f(a)\cdot u.
+\]
+
+Alternatively, allowing \(\theta\) to be the angle between
+\(\grad f(a)\) and \(u\),
+\[D_u f(a) = |\grad f(a)| \cdot |u| \cdot \cos\theta.\]
+
+\paragraph{Tangent Planes}
+
+Consider the surface in \(\mathbb{R}^3\) defined by \(\phi (x, y, z) = \lambda\).
+where \(\lambda\) is constant and \(\phi\) is differentiable.
+
+Let \(c(t) = \left(c_1(t), c_2(t), c_3(t)\right)\) be a differentiable curve
+lying on the vector space with a tangent vector given by 
+\(c'(t) = \left(c'_1(t), c'_2(t), c'_3(t)\right)\).
+
+Since all points \(c(t)\) lie on the surface, \(\phi(c(t)) = \lambda\).
+Thus,
+\[
+    D(\phi (c(t))) Dc(t) = 0 \Rightarrow \grad \phi c'(t) = 0.
+\]
+Therefore, all curves passing through a point \(P\) on the surface have
+tangent vector normal to \(\grad \phi\). Thus, they all lie in the tangent
+plane at \(P\).
+
+\subsection{Taylor Series and Theorem}
+
+\paragraph{Taylor's Theorem}
+For all continuous and differentiable functions \(f: \mathbb{R}\to \mathbb{R}\),
+\[
+    f(x)
+    \approx
+    P_k(a) = 
+    \sum_{n=0}^{k} \frac{1}{n!}f^{(n)}(x) (x-a)^n.
+    + R
+\]
+where the remainder \(R\) is
+\[
+    R = \frac{1}{(k+1)!} f^{(k+1)}(z) (x-a)^k.
+\]
+for some \(z\) between \(x\) and \(a\).
+
+\(P_0, P_1,  P_2, P_3\) are the best constant, affine, quadratic, cubic approximations.
+
+\paragraph{Generalizing Taylor's Theorem}
+
 % - Tangent Planes
 % - Chain rule
 % Directional Derivative
