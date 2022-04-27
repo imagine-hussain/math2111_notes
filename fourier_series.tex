@@ -1,0 +1,196 @@
+\section{Fourier Series}
+\paragraph{Fourier Series}
+A Fourier series is the approximation of simple periodic functions by
+the sum of period functions of the form \(\sin(x), \cos(x)\).
+Note that unlike Taylor series, a function \(f\) may be discontinuous.
+However, any lack of continuity leads to an infinite sum in the Fourier series.
+
+\subsection{Inner Products}
+\paragraph{Inner Products}
+Let \(V\) be a real vector space. An inner product on \(V\) is a map
+that assigns each \(f,g\in V\) a real number \(\langle f, g \rangle\)
+such that the following properties hold for all \(f, g, h \in V\) and\
+\(\lambda, \mu \in \mathbb{R}\):
+\begin{itemize}
+    \item \(\langle f, f \rangle \geq 0\),
+    \item \(\langle f, f \rangle = 0\) if and only if \(f\) is zero,
+    \item \(\langle \lambda f + \mu g, h\rangle\),
+    = \(\lambda\langle f, h\rangle\) + \(\mu\langle g, h\rangle\),
+    \item \(\langle g, f \rangle = \langle f, g \rangle\).
+\end{itemize}
+
+\paragraph{Usual Inner Products}
+\begin{itemize}
+    \item The vector space \(R^n\) admits the following inner product
+    \[ 
+        \langle u, v \rangle = u\cdot v = \sum_{i=1}^n u_i v_i.
+    \]
+    \item The vector space \(C[a, b]\) consisting of all continuous
+    function on the interval \([a, b]\) admits the following inner product
+    \[
+        \langle f, g \rangle = \int_{a}^{b} f(x) g(x) dx.
+    \]
+\end{itemize}
+
+\paragraph{Inner Product and Orthogonality}
+We say functions are orthogonal if \(\langle f, g\rangle = 0\).
+
+\subsection{Norms}
+A norm on \(V\) is a map that assigns each \(f\in V\) a real number
+\(||f||\) such that \(\forall f \in V, \lambda \in \mathbb{R}\)
+\begin{itemize}
+    \item \(||f|| > 0\),
+    \item \(||f|| = 0\) if and only if \(f = 0\),
+    \item \(||\lambda f|| = \lambda ||f||\),
+    \item \(||f + g|| \leq ||f|| + ||g||\); that is, the triangle inequality holds.
+\end{itemize}
+
+\paragraph{Usual Norms}
+\begin{itemize}
+    \item The Euclidian norm (\(L^2\)-norm): is a norm on \(C[a, b]\):
+    \[||f||_2 = \sqrt{\int_a^b f(x)^2 dx)}\]
+    \item The max norm is a norm on \(C[a, b]\):
+    \[||f||_\infty = \max_{a \leq x \leq b} \{|f(x)|\}\]
+\end{itemize}
+
+\subsection{Fourier Coefficient and Series}
+
+\paragraph{Fourier Series}
+Suppose that a function \(f: \mathbb{R}\to \mathbb{R}\) is \(2L\)-periodic,
+- that is, \(f(x) = f(x+2L)\) - 
+and is square integrable - that is, \(\int_{-L}^{L}f(x)^2 dx < \infty\).
+Then, \(f\) may be represented by a Fourier series of the form
+\[
+    f(x) =
+    \frac{a_0}{2} + \sum_{k=1}^n
+    \left[
+        a_k \cos\left(\frac{k\pi}{L}x\right) + b_k \sin \left(\frac{k\pi}{L}x \right)
+    \right]
+    \quad
+    \forall x\in [-\pi, \pi].
+\]
+This series converges to \(f\) as \(n\to \infty\).
+
+\paragraph{Fourier Coefficients}
+\begin{itemize}
+    \item \(a_k = \frac{1}{L} \int_{-L}^{L} f(x) \cos\left( \frac{k\pi x}{L} \right)\)
+    \item \(b_k = \frac{1}{L} \int_{-L}^{L} f(x) \sin\left( \frac{k\pi x}{L} \right)\)
+\end{itemize}
+
+\subsection{Convergence of Fourier Series}
+\paragraph{Continuity}
+Consider a function \(f: \mathbb{R}\to \mathbb{R}\) and a point \(c\in \mathbb{R}\).
+Suppose that the one-sided limits \(f(c^+)\) and \(f(c^-)\) exist.
+
+\begin{itemize}
+    \item If \(f^{c^+} = f^{c^-} = f(c)\) then \(f\) is continuous at \(c\),
+    \item If \(f^{c^+} = f^{c^-} \neq f(c)\) then \(f\) has a removable discontinuity at \(c\),
+    \item If \(f(c^+) \neq f(c^-)\) then, \(f\) has a jump discontinuity at
+    at c.
+\end{itemize}
+
+\paragraph{Piecewise Continuity}
+A function is piecewise continuous on \([a, b]\) if and only if 
+\begin{itemize}
+    \item \(f(x^+)\) exists \(\forall x\in [a, b]\),
+    \item \(f(x^-)\) exists \(\forall x\in [a, b]\),
+    \item \(f\) is continuous on \((a, b)\) except at most a finite number of points.
+\end{itemize}
+Note that if \(f\) is only piecewise continuous then the partial sum of the Fourier series does not necessarily converge to \(f\) for all \(x\).
+
+\paragraph{Piecewise differentiability}
+A function \(f\) is differentiable on \(c\) if and only if
+\(f(c^+) = f(c^-) = f(c)\) and \(D^+ f(c) = D^- f(c)\)
+
+Note: \(D^+ f(c)\) is not necessarily the same as \(\lim_{x\to c^+}f'(x)\).
+
+A function is piecewise differentiable on \([a, b]\) if and only if 
+\begin{itemize}
+    \item \(D^+f(x^)\) exists \(\forall x\in [a, b)\),
+    \item \(D^-f(x^)\) exists \(\forall x\in (a, b]\),
+    \item \(f\) is differentiable on \((a, b)\) except at most a finite number of points.
+\end{itemize}
+
+\paragraph{Pointwise convergence}
+Let \(c\in \mathbb{R}\). Suppose that a function has the following properties
+
+\begin{itemize}
+    \item \(f\) is \(2L\) periodic,
+    \item \(f\) is piecewise continuous on \([-L, L]\),
+    \item \(D^+f(c), D^-f(c)\) exist.
+\end{itemize}
+
+Then,
+\[
+S_f(c) = \frac{1}{2} [f(c^+) + f(c^-)].
+\]
+Observe that if \(f\) is continuous at \(c\) then \(S_f(c) = f(c)\).
+
+\paragraph{Odd and Evenness} 
+Recall that odd and even functions are defined by the conditions \(f(-x) = -f(x)\) and \(f(x) = f(-x)\) respectively.
+
+The following elementary properties hold:
+\begin{itemize}
+    \item Odd \(\times\) Even \(=\) Even,
+    \item Odd \(\times\) Odd \(=\) Even,
+    \item Even \(\times\) Even \(=\) Even,
+    \item \(\int_{-L}^L Odd = 0\).
+\end{itemize}
+
+\subsection{Convergence of Sequences}
+
+\paragraph{Pointwise convergence}
+Let \(f_k: \mathbb{R} \to \mathbb{R}\). \(f_k\) converges to \(f\) on
+\([a, b]\) pointwisely iff and only if for all \(x\in[a,b]\),
+\(f_k(x)\to f(x)\) as \(k\to infty\).
+
+\paragraph{Epsilon Delta Definition Pointwise Convergence}
+For all \(x\in [a,b]\), \(\epsilon > 0, \exists K\) (which will depend on \(\epsilon, x\) such that
+\[|f_k(x) - f(x)| \leq \epsilon \quad\forall k \geq K.\]
+
+\paragraph{Uniform Convergence}
+Let \(f_k: \mathbb{R}\to \mathbb{R}\). \(f_k\) converges to \(f\) on [a, b] uniformly if and only if
+for all \(\epsilon > 0, \exists K\) (depending on \(\epsilon\) only) such that
+\[
+\sup_{x\in [a,b]} |f_k(x) - f(x)| \leq \epsilon \quad\forall k \geq K.
+\]
+
+\paragraph{Weierstrass test}
+Let \(f_k: \mathbb{R}\to \mathbb{R}\) be a sequence of a function \(f\) defined on \([a, b]\).
+Suppose that there exists a sequence of numbers \(c_k\) such that
+\[|f_k(x)| \leq c_k \quad \forall x\in [a, b]\]
+where \(\sum_{k=1}^\infty c_k\) converges to a real number.
+Then
+\(\sum_{k=1}^\infty f_k\) converges uniformly to a function \(f\) on \([a, b]\).
+
+Note that this test also holds for function \(f: \mathbb{R}^n \to \mathbb{R}\) for \(x\in \Omega\) where \(\Omega\) is a closed bounded set in \(\mathbb{R}^n\).
+
+\paragraph{Norm Convergence}
+Using the supremum norm, the definition of uniform convergence can be equivalently written as:
+for all \(\epsilon > 0, \exists K\) such that
+\[
+    ||f_k - f|| \leq \epsilon \quad \forall k \geq K.
+\]
+Equivalently,
+\[\lim_{k\to\infty} ||f_k - f|| = 0.\]
+We may extend this to define norm-convergence for any norm.
+
+\paragraph{Extending Norm Convergence to L-2}
+Recall from the previous paragraph that norm-convergence is defined as follows:
+\[\lim_{k\to\infty} ||f_k - f|| = 0.\]
+As such, \(L^2\) norm convergence, also knows as mean square convergence
+is equivalent to the following
+\[\lim_{k\to\infty} \int_a^b [f_k(x)-f(x)]^2 dx = 0.\]
+
+\paragraph{Parseval Theorem}
+Let \(f\) be a \(2\pi\) periodic and bounded function where
+\(\int_{-pi}^\pi f(x)^2 dx < +\infty\). Then, the Fourier series of \(f\) converges to \(f\) in the mean square sense. Moreover, the Parseval's
+identity holds
+\[
+\int_{-pi}^\pi f(x)^2 = ||f||_2^2 = \frac{\pi}{2}a_0 +
+\pi \sum_{k=1}^\infty  (a_k^2 +b_k^2).
+\]
+This identity continues to hold for \(2L\) periodic functions integrated
+over \([-L, L]\).
+
+% TODO: #8 Look at heat equation

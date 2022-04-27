@@ -1,0 +1,162 @@
+
+\section{Analysis}
+
+\subsection{Assumed}
+\paragraph{Assumed Concepts from Real Single-Variable Calculus}
+\begin{itemize}
+    \item limits
+    \item continuity
+    \item differentiability
+    \item integrability
+\end{itemize}
+
+\paragraph{Assumed Theorems}
+\begin{itemize}
+    \item Min/ Max Theorem
+    \item Intermediate Value Theorem
+    \item Mean Value Theorem
+\end{itemize}
+
+\subsection{Limits}
+Recall that \(\lim_{x\to a} f(x) = L\) requires that for all
+\(\epsilon > 0\), there exists a \(\delta > 0\) such that
+if \(|x-a| < \delta\)
+then
+\[|f(x) - L|  < \delta.\]
+
+
+
+\subsection{Metrics}
+We have metrics (distance functions) as
+\[m: \mathbb{R}^n\times\mathbb{R}^n \to \mathbb{R}\]
+satisfying the following 3 axioms.
+\begin{itemize}
+    \item \textbf{Positive Definite} such that for all \(x,y\in\mathbb{R}^n\),
+    \(m(x,y) > 0\) and, \(m(x,y) = 0\ \Leftrightarrow x = y\).
+    \item \textbf{Symmetric} \(m(x,y) = m(y, x)\).z
+    \item \textbf{Triangle Inequality} such that for all \(x,y,z\in\mathbb{R}^n\),
+    \(m(x,y) + m(y, z) \leq m(x, z)\).
+\end{itemize}
+
+\paragraph{Euclidian Distance}
+We allow the Euclidian distance to be defined as
+\[d_n(x,y) := ||x-y|| = \sqrt{\sum_{i=1}^{n} (x_i - y_y)^2}\]
+We often allow \(d\) to be \(d_2\).
+
+\paragraph{Norms} Norms will be revisited in the Fourier Series section. They can be thought of as the length of an element in vectors space.
+
+\paragraph{Equivalent Metrics}
+Two metrics \(d\) and \(\delta\) are considered equal if 
+there exists constants \(0 < c < C < \infty\) such that
+\[ c\delta (x,y) \leq d(x,y) \leq C \delta(x, y).\]
+
+\subsection{Limits of Sequences}
+
+\paragraph{Balls} A ball around \(\vec{a}\in \mathbb{R} \) is of radius \( \epsilon \) is the set
+\[B(\vec{a}, \epsilon), = \{x\in \mathbb{R} : d(\vec{a}, x) < \epsilon\}.\]
+
+\paragraph{Limit in Sequence} 
+For a sequence \( \{x_i\} \) of points in \( \mathbb{R}^n \),
+\(x\) is the limit of the sequence if and only if 
+\[\forall \epsilon > 0 \exists N \text{ such that } n \geq N \implies d(x, x_n) \leq \epsilon. \]
+Equivalently,
+\[\forall \epsilon > 0 \exists N \text{ such that } n \geq N \implies d(x, x_n) \in B(x, \epsilon).\]
+
+\paragraph{Theorems with Limits of Sequences}
+\begin{align*}
+    \text{A sequence \(x_k\) converges to a limit \(x\)}\\
+    &\Leftrightarrow \text{The components of \(x_k\)} \\
+    & \quad \text{converge to the componetents of \(x\)} \\
+    & \Leftrightarrow d(x_k, x) \rightarrow 0.
+\end{align*}
+
+\paragraph{Limits and Equivalent Metrics}
+Suppose that \(d\) and \(\delta\) are two equivalent metrics.
+That is, \(cd(x,y) \leq \delta (x, y) \leq Cd(x,y)\) for \(c, C > 0\).
+
+Considering \(d\) as the metric, suppose that 
+\[x_k \to x\quad\text{ for } x_k, x \in\mathbb{R}^n.\]
+That is,
+\[\forall \epsilon > 0, \exists K : k \geq K \implies d(x_k, x) < \epsilon.\]
+Using \(\delta\), we may make an equivalent statement, choosing
+\(\epsilon > 0\) such that \(\epsilon' = C\epsilon\).
+Considering that \(e > 0 \implies \exists K : \forall k \geq K
+\implies d(x_k, x) < \epsilon\) then, 
+\[\delta (x_k, x) \leq Cd (x_k, x) < C\epsilon = \epsilon'.\]
+That is, \(\delta (x_k, x) < \epsilon'.\) Hence \(x_k \to x\)
+using an equivalent metric \(\delta\).
+
+\paragraph{Cauchy Sequences}
+A sequence \(\{x_K\}\in\mathbb{R}\) is a Cauchy sequence if
+\[
+    \exists \epsilon > 0 \text{ such that } k,I > K 
+    \implies d(x_k, x_l) < \epsilon.
+\]
+
+\paragraph{Cauchy Sequences and Convergence}
+The following are equivalent:
+\[
+    \text{A sequence \(\{x_k\}\) converges in \(\mathbb{R}^2\)}
+    \quad \Longleftrightarrow \quad
+    \text{\(\{x_k\}\) is a Cauchy Sequence}.
+\]
+
+\subsection{Open and Closed Sets}
+
+\paragraph{Definitions}
+Consider \(x_k \)
+\begin{itemize}
+    \item \(x_0\in\Omega\) is an \underline{interior points} of \(\Omega\) if there is a ball around \(x\) completely contained in \(\Omega\). That is, there exists a \(\epsilon > 0\) such that \(B(x_0, \epsilon) \subseteq \Omega\).
+    \item  \(\Omega\) is open if every point of \(\Omega\) is an interior point.
+    \item \(\Omega\) is closed if its complement is open.
+    \item \(x_0\in\Omega\) is a \underline{boundary point} of \(\Omega\) if every ball around \(x_0\) contains points in \(\Omega\) and points not in \(\Omega\).
+\end{itemize}
+
+\paragraph{Closed Sets}
+A set \(\Omega \subset \mathbb{R}\) is closed iff and only if it contains all of its boundary points.
+
+\paragraph{Limit Points and Sets}
+\(x_0\) is a limit point of \(\Omega\) if there is a sequence \(\{x_i\}\) 
+in \(\Omega\) with limit \(x_0\) and \(x_i \neq x\).
+
+\begin{itemize}
+    \item Every interior points of \(\Omega\) is a limit point of \(\Omega\).
+    \item \(x_0\) is not necessarily in \(Omega\)
+    \item A set is closed \(\Leftrightarrow\) it contains all of its limit points.
+\end{itemize}
+
+\paragraph{Variations of a Set}
+Consider the set \(\Omega \in \mathbb{R}^n\).
+\begin{itemize}
+    \item The \underline{interior} of \(\Omega\) is the set of all its interior points.
+    \item The \underline{boundary} \(\partial \Omega)\) of \(\Omega\) is the set of all its boundary points.
+    \item The \underline{closure} of \(\Omega\): \(\bar{\Omega} = \Omega \cup \partial \Omega\).
+\end{itemize}
+The interior is the largest open subset and the closure is the smallest closed set containing \(\Omega\).
+
+\paragraph{Limit of a Function at a Point}
+For \(f: \Omega \subset \mathbb{R}^n \to \mathbb{R}^m\), 
+\(\lim_{x\to x_0}\) means that 
+\begin{align*}
+    \forall \epsilon \exists \delta > 0\text{ such that for } x\in\Omega: \\
+    0 < d(x, x_0) < \delta \implies d(f(x), b) < \epsilon.
+\end{align*}
+Alternatively,
+\[
+    x\in B(x_0, \delta) \backslash \{x_0\}
+    \implies f(x)\in B(b, \epsilon).
+\]
+It is sufficient to consider the limits of the components of a function.
+
+\paragraph{Limits and sequences}
+The limit \(\lim_{x\to a} f(x) = b\) exists if and only if,
+\(\lim_{k\to\infty} f(x_k) = b\)  for all sequences \({x_k}\) such that 
+\(x_k\) is an element of \(\Omega\) and,
+\(\lim_{k\to\infty} x_k = a\).
+
+This is very helpful for showing that a limit does not exists.
+
+\subsection{Pinching and IVT Theorem}
+\paragraph{Pinching Theorem}
+\paragraph{IVT}
+see 1141
