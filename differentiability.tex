@@ -188,6 +188,7 @@ Therefore, all curves passing through a point \(P\) on the surface have
 tangent vector normal to \(\grad \phi\). Thus, they all lie in the tangent
 plane at \(P\).
 
+
 \subsection{Taylor Series and Theorem}
 
 \paragraph{Taylor's Theorem}
@@ -208,7 +209,56 @@ for some \(z\) between \(x\) and \(a\).
 \(P_0, P_1,  P_2, P_3\) are the best constant, affine, quadratic, cubic approximations.
 
 \paragraph{Generalizing Taylor's Theorem}
+Let \(f: \Omega\subset \mathbb{R}^n \to \mathbb{R}\) be \(C^r\) on the 
+open set \(\Omega\).
+Let \(a\in \Omega\) be such that the line segment joining \(a\) and \(x\)
+lies entirely in \(\Omega\).  Then,
+\[f(x) = P_{r, a}(x) + R_{r, a}(a)\]
+where for some \(z\) on the line segment between \(a\) and \(x\)
+\[ 
+    P_{r,a}(x) = f(a) + \sum_{k=1}^{r-1} \frac{1}{k!} D^k f(a)\cdot(x-a)^k, 
+    \quad,
+    R_{r,a}(a) = \frac{1}{r!}D^r f(z) \cdot (x-a)^r
+\]
+Note that \(\cdot\) is not a dot product.
 
+\paragraph{Second Degree Taylor Series}
+Let \(f: \Omega\subset \mathbb{R}^n \to \mathbb{R}\) be \(C^3\) on \(\Omega\).
+Then, ignoring the remainder,
+\[
+    f(x) = f(a) + \grad f(a)\cdot(x-a) 
+    +
+    \frac{1}{2} \left((x-a)\cdot \left(
+        Hf(a)\cdot(x-a).
+    \right) \right)
+\]
+where \(H\) is the Hessian Matrix.
+
+\subsection{Hessian Matrix and Stationary Points}
+
+\paragraph{Hessian Matrix}
+For \(f: \Omega \subset \mathbb{R}^n \to \mathbb{R}\),
+the Hessian matrix of \(f\) at a point \(a\) is the \(n\times n\)
+matrix
+\[
+    H(f, a) =
+    \begin{pmatrix}
+        \dfrac{\partial^2 f}{\partial x_1 \partial x_1} & \dfrac{\partial^2 f}{\partial x_2 \partial x_1} & \cdots &\dfrac{\partial^2 f}{\partial x_n \partial x_1} \\
+        \dfrac{\partial^2 f}{\partial x_1 \partial x_2} & \dfrac{\partial^2 f}{\partial x_2 \partial x_2} & \cdots &\dfrac{\partial^2 f}{\partial x_n \partial x_2} \\
+        \vdots & \vdots & \ddots & \vdots \\
+        \dfrac{\partial^2 f}{\partial x_1 \partial x_3} & \dfrac{\partial^2 f}{\partial x_2 \partial x_3} & \cdots &\dfrac{\partial^2 f}{\partial x_n \partial x_1} \\
+    \end{pmatrix}.
+\]
+
+\paragraph{Revision: Trace and Determinant}
+Recall that the trace is the sum of its diagonal values. The trace of a hessian
+matrix is also the sum of its eigenvalues.
+Also, the determinant is the product of the eigenvalues.
+The eigenvalues of a matrix \(A\) can be found by calculating solutions to
+\[\left| A - \lambda I\right| = 0.\]
+
+\paragraph{Definite and Semi Definite Matrices}
+For a \(n\times n\) matrix \(H\),
 % - Tangent Planes
 % - Chain rule
 % Directional Derivative

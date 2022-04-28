@@ -11,6 +11,7 @@
 \usepackage{graphicx}
 \usepackage{physics}
 \usepackage{esint}
+\usepackage{subfiles}
 
 % Dark Mode
 % \usepackage{xcolor}
@@ -45,13 +46,13 @@
 \maketitle
 \tableofcontents
     \newpage
-    \include{analysis.tex}
     % TODO: #1 Analysis Notes
-    \include{differentiability.tex}
-    \include{integration.tex}
-    \include{fourier_series.tex}
-    \include{vector_fields.tex}
-    \include{path_and_vector_integrals.tex}
+    \subfile{analysis.tex}
+    \subfile{differentiability.tex}
+    \subfile{integration.tex}
+    \subfile{fourier_series.tex}
+    \subfile{vector_fields.tex}
+    \subfile{path_and_vector_integrals.tex}
     % % TODO: #6 Surface Integral
     % % TODO: #7 Integral Theorems
 \end{document}
