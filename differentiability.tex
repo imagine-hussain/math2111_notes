@@ -258,16 +258,57 @@ The eigenvalues of a matrix \(A\) can be found by calculating solutions to
 \[\left| A - \lambda I\right| = 0.\]
 
 \paragraph{Definite and Semi Definite Matrices}
-For a \(n\times n\) matrix \(H\),
-% - Tangent Planes
-% - Chain rule
-% Directional Derivative
-% Tangent Planes
-% Tangent Lines
-% Taylor Series
-% Taylor Theorem
-% Max, Min, Saddle Points
-% Sylvester's Criterion
+For a \(n\times n\) symmetric matrix \(H\),
+\begin{itemize}
+    \item All eigenvalues are \(> 0\)    \(\Leftrightarrow\) positive definite
+    \item All eigenvalues are \(< 0\)    \(\Leftrightarrow\) negative definite
+    \item All eigenvalues are \(\geq 0\) \(\Leftrightarrow\) positive semidefinite
+    \item All eigenvalues are \(\leq 0\) \(\Leftrightarrow\) negative semidefinite
+\end{itemize}
+
+\paragraph{Sylvester's Criterion (for the Definite Property)}
+Allow \(H_k\) to be the upper left \(k\times k\) sub-matrix of \(h\)
+and let \(\Delta_k = \det H_k\).
+Then,
+\begin{itemize}
+    \item positive definite        \quad \(\Leftrightarrow\) \(\Delta_k > 0 \forall k\)
+    \item positive semidefinite    \quad \(\Leftrightarrow\) \(\Delta_k \leq 0 \forall k\)
+    \item negative definite        \quad \(\Leftrightarrow\) \(\Delta_k < 0\)  for all odd \(k\) and \(\Delta > 0\) for all even \(k\)
+    \item negative semidefinite        \quad \(\Leftrightarrow\) \(\Delta_k \leq 0\)  for all odd \(k\) and \(\Delta \geq 0\) for all even \(k\)
+\end{itemize}
+
+\paragraph{The Definite Property and Classification of Stationary Points}
+Suppose that \(f: \Omega\subset \mathbb{R}^n\to \mathbb{R}\) is \(C^2\)
+and \(\grad f (a) = 0\) at an interior point \(a\) of \(\Omega\).
+Then
+\begin{itemize}
+    \item \(H(f, a)\) is a positive definite \(\Rightarrow\) \(f\) has a local maximum at \(a\)
+    \item \(H(f, a)\) is a negative definite \(\Rightarrow\) \(f\) has a local minimum at \(a\)
+    \item \(f\) has a local minimum at \(a\) \(\Rightarrow\) \(H(f,a)\) is a positive semidefinite
+    \item \(f\) has a local maximum at \(a\) \(\Rightarrow\) \(H(f,a)\) is a negative semidefinite
+\end{itemize}
+Observe carefully that the semidefinite cases can also be saddle points.
+
+\subsection{Lagrange Multipliers, Implicit and Inverse Function Theorems}
+
+\paragraph{Lagrange Multipliers}
+Consider two differentiable functions
+\(f: \mathbb{R}^n \to \mathbb{R} \) and \(f: \mathbb{R}^n \to \mathbb{R}\).
+Lagrange multipliers are useful for finding local extrema of \(f\)
+under the constraint \(S = \{x \in\mathbb{R}^n : g(x) = c, c\in \mathbb{R}\}\).
+
+Then, if a local minimum or maximum of \(f\) occurs on \(a\in S\) then,
+\(\grad f()\) and \(\grad g(a)\) are parallel.
+That is, when \(\grad g(a) \neq 0\), there exists \(\lambda \in \mathbb{R}\)
+such that
+\[
+    \grad f (a) = \lambda \grad g(a).
+\]
+
+Note that this theorem will only provide possible candidates for minimum or maximum
+points. There is no guarantee that there exists minimum or maximums of \(f\) on \(S\).
+
+
 % Lagrange Multiplies
 % Inverse Theorem
 % Implicit Function Theorem
