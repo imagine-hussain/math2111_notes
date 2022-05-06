@@ -2,6 +2,7 @@ import os
 
 light_file_path = "./math2111.tex"
 dark_file_path = "./math2111_dark.tex"
+cleanup_script = "./cleanup_tex.sh"
 
 dark_mode_specifiers = r"""
  
@@ -80,15 +81,16 @@ def build_dark(path):
     return
     
 
-def cleanup():
-    return
+def cleanup(path, cleanup_script):
+    if os.path.exists(path):
+        os.system(f"bash {cleanup_script}")
 
 def main():
     empty_file(dark_file_path)
     add_dark_mode(dark_file_path)
     append_file(light_file_path, dark_file_path)
     build_dark(dark_file_path)
-    cleanup()
+    cleanup(dark_file_path, cleanup_script)
 
 
 
