@@ -7,15 +7,15 @@ such that
 \[c'(t) = F(c(t)).\]
 That is, that \(F\) yields the velocity field of the path \(c(t)\).
 
-\paragraph{The Del \(\nabla\) operator}
-The vector differential operator \(\nabla\) may be considered a 
+\paragraph{The Del \(\grad\) operator}
+The vector differential operator \(\grad\) may be considered a 
 symbolic vector.
 The differential operator may be written as 
-\[\nabla = \frac{\partial}{\partial x}i + \frac{\partial}{\partial y}j + \frac{\partial}{\partial z}k.\]
+\[\grad = \frac{\partial}{\partial x}i + \frac{\partial}{\partial y}j + \frac{\partial}{\partial z}k.\]
 
 \paragraph{Divergence}
 Given a field \(F = (f_1, f_2, \dots, f_n)\), the divergence of \(F\) is
-\[\text{div} F = \div F = \sum_{i=1}^n \nabla f_i.\]
+\[\text{div} F = \div F = \sum_{i=1}^n \grad f_i.\]
 
 Divergence may be thought as a type of derivative that describes the measure at which 
 a vector field \textit{spreads away} from a certain point.
@@ -38,18 +38,18 @@ Observe that the curl of a vector field is also a vector field.
 \paragraph{Basic Vector Identities}
 
 \begin{enumerate}
-    \item \(\nabla(f + g) = \nabla f + \nabla g\)
-    \item \(\nabla (\lambda f) = \lambda \nabla f\) where \(\lambda \in \mathbb{R}\)
-    \item \(\nabla (fg) = g \nabla f + f \nabla g\). You may draw analogies to the product.
-    \item \(\nabla \dfrac{f}{g} = \dfrac{f\nabla g - g\nabla f}{g^2}\) where \(g\neq 0\). This is analogous to the quotient rule.
+    \item \(\grad(f + g) = \grad f + \grad g\)
+    \item \(\grad (\lambda f) = \lambda \grad f\) where \(\lambda \in \mathbb{R}\)
+    \item \(\grad (fg) = g \grad f + f \grad g\). You may draw analogies to the product.
+    \item \(\grad \dfrac{f}{g} = \dfrac{f\grad g - g\grad f}{g^2}\) where \(g\neq 0\). This is analogous to the quotient rule.
     \item \(\div (F + G) = \div F + \div G\)
     \item \(\curl (F + G) = \curl F + \curl G\)
-    \item \(\div (fF) = f\div F = F\cdot nabla f\)
+    \item \(\div (fF) = f\div F = F\cdot \grad f\)
     \item \(\div (F\times G) = G \cdot (\curl F) - F \cdot (\curl G)\)
     \item \(\div(\curl F) = 0\)
-    \item \(\curl (fF) = f\curl F = \nabla f \times F\)
-    \item  \(\curl (\nabla f) = 0\)
-    \item \(\nabla^2 (fg) = f\nabla^2 g + 2((\nabla f \cdot \nabla g)) + g\nabla^2f\)
-    \item \(\div (\nabla \times \nabla g) = 0\)
-    \item \(\div(f\nabla g - g\nabla f) = f\nabla^2 g - g\nabla f^2\)
+    \item \(\curl (fF) = f\curl F = \grad f \times F\)
+    \item  \(\curl (\grad f) = 0\)
+    \item \(\grad^2 (fg) = f\grad^2 g + 2((\grad f \cdot \grad g)) + g\grad^2f\)
+    \item \(\div (\grad \times \grad g) = 0\)
+    \item \(\div(f\grad g - g\grad f) = f\grad^2 g - g\grad f^2\)
 \end{enumerate}
