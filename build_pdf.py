@@ -76,8 +76,9 @@ def append_file(src_path, dest_path):
                     dest.write(line)
     print(f"Successfully transferred contents from {src_path} to {dest_path}")
                 
-def build_dark(path):
-    os.system(f"pdflatex {path}")
+def build_tex(filepaths):
+    for path in filepaths:
+        os.system(f"pdflatex {path}")
     return
     
 
@@ -89,7 +90,7 @@ def main():
     empty_file(dark_file_path)
     add_dark_mode(dark_file_path)
     append_file(light_file_path, dark_file_path)
-    build_dark(dark_file_path)
+    build_tex([dark_file_path, light_file_path])
     cleanup(dark_file_path, cleanup_script)
 
 

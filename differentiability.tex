@@ -308,7 +308,42 @@ such that
 Note that this theorem will only provide possible candidates for minimum or maximum
 points. There is no guarantee that there exists minimum or maximums of \(f\) on \(S\).
 
+\paragraph{Inverse Function Theorem in \(\mathbb{R}\to \mathbb{R}\)}
+Suppose that \(f: \mathbb{R}\to \mathbb{R}\) is differentiable on an
+interval \(I\subset \mathbb{R}\) and \(f'(x)\neq 0\) for all \(x\in I.\)
+Then, \(f\) is invertible on \(I\) and the inverse \( (f^{-1})'(x) \)
 
-% Lagrange Multiplies
-% Inverse Theorem
-% Implicit Function Theorem
+is differentiable such that
+\[
+    (f^{-1})'(x) = \dfrac{1}{f'(f^{-1}(x))}.
+\]
+
+That is, if \(y = f(x)\) and \(f^{-1}\) exist and is differentiable with \(x = f^{-1}(y)\)
+then
+\[ \frac{dx}{dy} = \frac{1}{\frac{dy}{dx}}. \]
+
+\paragraph{Generalising the Inverse Function Theorem}
+Let \(\Omega\subset \mathbb{R}^n\) be open and \(f: \Omega\to \mathbb{R}^n\)
+be \(C^1\). Suppose that \(a\in \Omega\).
+
+If the matrix \(Df(a)\) is invertible, then \(f\) is invertible on an open
+set \(U\) containing \(a\).
+That is, the inverse exists as
+\[f^{-1}: f(U)\to U.\]
+
+Further, \(f^{-1}\) is \(C^1\) and for \(x\in U\),
+\[
+    D_{f(x)}f^{-1} = (D_xf)^{-1}.
+\]
+
+Consequently, \(f^{-1}\) has its best affine approximation at \(f(a)\)
+as
+\[
+    f^{-1}(x) \approx a + (D_f)^{-1}(x - f(a)).
+\]
+
+\paragraph{Implicit Function Theorem}
+% TODO: #11 Implicit Function Theorem
+
+
+
