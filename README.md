@@ -1,5 +1,4 @@
 # math2111_notes
-see title
 
 ## Where to find the notes?
 
