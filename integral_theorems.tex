@@ -1,0 +1,39 @@
+\section{Integral Theorems}
+
+\subsection{Stokes' Theorem}
+\paragraph{Stokes' Theorem}
+With Stokes' Theorem, we can compute line integrals over closed curves by
+using surface integrals.
+Suppose that
+\begin{itemize}
+    \item \(S\) is a smooth oriented surface,
+    \item \(\partial S\) is the boundary of \(S\) in the anti-clockwise
+    direction when looking at \(S\) from the positive direction,
+    \item \(F\) is a continuously differentiable vector field on \(S\).
+\end{itemize}
+
+Then, \[
+    \iint_S (\curl F) \cdot ds = \oint_{\partial S} F \cdot ds.
+\]
+
+\subsection{Gauss' Divergence Theorem}
+The divergence theorem allows for computation of surface integrals
+over close surfaces with a triple integral over the 3D solid bound by
+the surface.
+If 
+\begin{itemize}
+    \item The region \(W\subset \mathbb{R}^3\) is a bounded, solid, simple region.
+    \item \(S\) is the piecewise smooth boundary, oriented so that the normal
+    vector points outwards
+    \item \(F\) is a \(C^1\) vector field on \(W\).
+\end{itemize}
+Then, \[
+    \iint_S F\cdot dS = \iiint_W \div F \cdot dV.
+\]
+This is very helpful for complex vector fields with simpler expressions for
+divergence.
+
+Note that \(\iiint_W dV\) is the volume of \(W\).
+Also note that for a conversion from \(x, y, z \to r, \theta, \phi\),
+the Jacobian determinant is \(r^2 \sin \phi\).
+
