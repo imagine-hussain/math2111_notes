@@ -1,2 +1,119 @@
+\newcommand\barbelow[1]{\stackunder[1.2pt]{$#1$}{\rule{.8ex}{.075ex}}}
+
 % TODO: #3 Integration Notes
 \section{Integration}
+
+\subsection{Riemann and Fubini}
+
+\paragraph{Riemann Integral}
+
+For a bounded function \(f: R \to \mathbb{R}\), if there exists a unique
+number \(I\) such that
+\[
+    \underline{S}_{\mathcal{P}_1, \mathcal{P}_2}(f) \leq I \leq \bar{S}_{\mathcal{P}_1, \mathcal{P}_2}(f)
+\]
+
+for every pair of partitions \(\mathcal{P}_1, \mathcal{P}_2\). Then, \(f\) is Riemann
+integrable on \(R\) and
+\[I = \int\int_R f = \int\int_R f(x, y) dA.\]
+\(I\) is called the Riemann integral of \(f\) over\(R\).
+
+\paragraph{Properties of the Riemann Integral}
+The single variable interpretation of a Riemann integral is the (signed) area bound by the 
+graph \(y = f(x)\) and the \(x\) axis over the interval \([a, b]\).
+For two variables, \(\int\int_R f\) is the (signed) volume bounded by the graph
+\(z = f(x, y)\) and the \(xy\)-plane over the rectangle \(R\).
+
+If \(f, g\) are integrable on \(R\),
+\begin{itemize}
+    \item \(\int\int_R \alpha f = \beta g = \alpha \int\int_r f + \beta \int\int_R g\)
+    \item If \(f(x)\leq g(x), \forall x\in R\) then \(\int\int_R \leq \int\int_R g\)
+    \item \(\left| \int\int_R f \right| \leq \int\int_R \left| f \right | \)
+    \item If \(R = R_1 \cup R_2\) and \(\text{interior }R_1 \cap \text{interior }R_2 = \emptyset\) then
+    \(\int\int_R f = \int\int_{R_1} f + \int\int_{R_2} f\)
+\end{itemize}
+
+\paragraph{Fubini's Theorem}
+Let \(f: R \to \mathbb{R}\) be continuous on a rectangular domain \(r = [a, b]\times [c, d]\).
+Then, \(\int_a^b \int_c^d f(x, y) dy dx = \int_c^d \int_a^b f(x, y) dy, dy\).
+
+\paragraph{Fubini's Theorem - Discontinuous}
+Let \(f: R \to \mathbb{R}\) be bounded on a rectangular domain
+\(R = [a, b] \times [c, d]\) with the discontinuities of \(f\) confined to
+a finite union of graphs of continuous functions.
+If \(\int_c^d\) exists for each \(x\int [a, b]\) then
+\[\int\int_R = \int_a^b \left(\int_x^d f(x, y) dy\right) dx.\]
+Since \(f\) is not continuous then there is no guarantee that these integrals exist.
+
+
+\subsection{Uniform Continuity, Leibniz}
+
+\paragraph{Uniform Continuity}
+The function \(f: \Omega\subset \mathbb{R}^n \to \mathbb{R}^m\)
+is uniformly continuous on \(\Omega\) if for all \(x, y\in\Omega\) and
+for all \(\epsilon > 0\), there exists \(\delta\) such that
+\[
+    d(x, y) < \delta \quad \Rightarrow \quad d(f(x), f(y)) < \epsilon.
+\]
+\(\delta\) may depend on \(x\) but, given an \(\epsilon\),
+the same \(\delta\) must work for all \(x\).
+
+\paragraph{Continuity and Uniform Continuance}
+A continuous function on a compact \(\Omega\) is uniformly continuous on \(\Omega\).
+
+\paragraph{Leibniz' Rule}
+Consider a function \(f: \mathbb{R}^2 \to \mathbb{R}\) that is continuous
+on \(\Omega\) and \(\frac{\partial f}{\partial x}\) is uniformly continuous on \(\Omega\).
+
+If,
+\[F(x) = \int_a^b f(x, y)\]
+then
+\[F'(x) = \frac{d}{dx} \int_a^b f(x, y)dy = \int_a^b \frac{\partial f}{\partial x}(x,y) dy.\]
+
+\subsection{Alternate Coordinates}
+\paragraph{Change of Variable}
+Suppose that \(F: \Omega\in\mathbb{R}^n \to \mathbb{R}^n\) is \(C^1\),
+\(\det(J_xF \neq 0)\) for \(x\in\Omega\) and \(F\) is one-to-one.
+Then, if \(f\) is integrable on \(\Omega ' = F(\Omega)\)
+\[
+    \int_{\Omega '} f(x, y)
+    =
+    \int_{\Omega} (f\circ F) |\det J F|.
+\]
+
+As an alternate notation consider,
+\[
+    \int_{\Omega '} f(x, y)dx dy
+    =
+    \int_\Omega f( x(u, v), y(u, v) ) |\det JF| du dv.
+\]
+where
+\[
+    \det Jf = \det \begin{pmatrix}
+        \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v}
+        \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v}
+    \end{pmatrix}.
+\]
+
+Note that \(F\) is the function which maps the change of variable.
+
+\subsection{Mass, Centre of Mass, Centroid}
+For the following section, suppose that \(\Omega\subset \mathbb{R}\)
+with a density function \(p: \Omega to \mathbb{R}\).
+
+Note that this can be generalised to \(n\) dimensions by the \(n\)-th integral
+rather than a double integral
+
+\paragraph{Mass}
+The total mass is
+\[M = \int_\Omega p(x, y) dx dy.\]
+
+\paragraph{Center of Mass}
+The coordinates for centre of mass follow as such:
+\begin{itemize}
+    \item \(\bar{x} = \int\int_\Omega x p(x, y) dx dy\)
+    \item \(\bar{y} = \int\int_\Omega y p(x, y) dx dy\)
+\end{itemize}
+
+
+
