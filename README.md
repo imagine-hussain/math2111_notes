@@ -2,6 +2,9 @@
 
 ## Where to find the notes?
 
+### [PDF](math2111.pdf)
+### [Dark PDF](math2111_dark.pdf)
+
 Find the notes in the `.pdf` file. Currently, there are two `.pdf` files. One is the the regular file and the other has been built in dark mode.
 If the dark mode looks like it hasn't been updated freely, feel free to run `build_dark.py` by running `python3 build_dark.py` in your terminal after cloning this repo. Note that this will require you to have a latex compiler installed.
 
