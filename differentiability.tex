@@ -195,16 +195,17 @@ plane at \(P\).
 
 \paragraph{Taylor's Theorem}
 For all continuous and differentiable functions \(f: \mathbb{R}\to \mathbb{R}\),
+the taylor series in the neighbourhood of the point \(a\) is:
 \[
-    f(x)
+    f(a)
     \approx
     P_k(a) = 
-    \sum_{n=0}^{k} \frac{1}{n!}f^{(n)}(x) (x-a)^n.
-    + R
+    \sum_{n=0}^{k} \frac{1}{n!} f^{(n)}(a) (x-a)^n
+    + R,
 \]
 where the remainder \(R\) is
 \[
-    R = \frac{1}{(k+1)!} f^{(k+1)}(z) (x-a)^k.
+    R = \frac{1}{(k+1)!} f^{(k+1)}(z) (x-a)^{k + 1},
 \]
 for some \(z\) between \(x\) and \(a\).
 
