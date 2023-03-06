@@ -33,7 +33,7 @@ satisfying the following 3 axioms.
 \begin{itemize}
     \item \textbf{Positive Definite} such that for all \(x,y\in\mathbb{R}^n\),
     \(m(x,y) > 0\) and, \(m(x,y) = 0\ \Leftrightarrow x = y\).
-    \item \textbf{Symmetric} \(m(x,y) = m(y, x)\).z
+    \item \textbf{Symmetric} \(m(x,y) = m(y, x)\).
     \item \textbf{Triangle Inequality} such that for all \(x,y,z\in\mathbb{R}^n\),
     \(m(x,y) + m(y, z) \leq m(x, z)\).
 \end{itemize}
@@ -121,7 +121,7 @@ in \(\Omega\) with limit \(x_0\) and \(x_i \neq x\).
 
 \begin{itemize}
     \item Every interior points of \(\Omega\) is a limit point of \(\Omega\).
-    \item \(x_0\) is not necessarily in \(Omega\)
+    \item \(x_0\) is not necessarily in \(\Omega\).
     \item A set is closed \(\Leftrightarrow\) it contains all of its limit points.
 \end{itemize}
 
@@ -157,6 +157,26 @@ The limit \(\lim_{x\to a} f(x) = b\) exists if and only if,
 This is very helpful for showing that a limit does not exists.
 
 \subsection{Pinching and IVT Theorem}
+
 \paragraph{Pinching Theorem}
+Let \(\Omega \subset \mathbb{R}^n\), let \(\textbf{a}\) be a limit point of \(\Omega\)
+and let \(f,g ,h: \Omega \rightarrow \mathbb{R}\) be functions such that there exists
+\(\epsilon > 0\) such that
+\[
+    g(\textbf{x}) \leq f(\textbf{x}) \leq h(\textbf{x}) \qquad
+    \forall \textbf{x} \in B(\textbf{a}, \epsilon) \cap \Omega.
+\]
+Then
+\[
+    \lim_{x\to \textbf{a}} g(\textbf{x}) = \textbf{b} = \lim_{x\to \textbf{a}} h(\textbf{x})
+    \implies \lim_{x\to \textbf{a}} f(\textbf{x}) = \textbf{b}.
+\]
+
 \paragraph{IVT}
-see 1141
+Suppose that \(f\) is continuous on the closed interval  \(I = [a, b]\). Then,
+let  \(c \in [a, b]\). Suppose that \(z\) is some number between \(f(a)\) and
+\(f(b)\), where  \(f(a) \neq f(b)\).
+Then, \[
+    f(c) = z, \quad \text{where} \quad c \in (a, b).
+.\] 
+

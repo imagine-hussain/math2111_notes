@@ -10,12 +10,13 @@ This function may be found as
 \[T(x) = f(a) + f'(a)(x-a) = f(a) -f'(a)a + f'(a)x = y_0 + L(x)\]
 where for all \(a\), \(y= f(a) - f'(a)a\) and \(L: \mathbb{R}\to \mathbb{R} = f'(a)x\).
 
-Recall that \[f'(a) = \lim_{x\to a} \frac{f(x) - f(a)}{x-a}\].
+Recall that \[f'(a) = \lim_{x\to a} \frac{f(x) - f(a)}{x-a}.\]
 
 \paragraph{Affine Maps}
 A function \(T: \mathbb{R}^n \to \mathbb{R}^m\) being affine means that there exists
-a \(y_0\) such that for all \(x\in \mathbb{R}^n\)
-\[T(x) = y_0 + L(x)\].
+a \(y_0\) such that for all \(x\in \mathbb{R}^n\) \[
+    T(x) = y_0 + L(x)
+.\]
 
 In \(T: \mathbb{R}\to \mathbb{R}\) this sis of the form \(y = mx+b\).
 
@@ -144,7 +145,7 @@ Suppose that \(f: \Omega \subset \mathbb{R}^n \to \mathbb{R}^m\) and
 If \(f\) and \(g\) are both differentiable then, so is
 \(g\circ f: \Omega \to \mathbb{R}^p\) such that
 \[
-    D_a (g\circ f) = D_(f_(a))g D_a f.
+    D_a (g\circ f) = D_{f(a)}g \cdot D_a f.
 \]
 Equivalently,
 \[
