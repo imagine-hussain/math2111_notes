@@ -106,8 +106,7 @@ Note: \(D^+ f(c)\) is not necessarily the same as \(\lim_{x\to c^+}f'(x)\).
 
 A function is piecewise differentiable on \([a, b]\) if and only if 
 \begin{itemize}
-    \item \(D^+f(x^)\) exists \(\forall x\in [a, b)\),
-    \item \(D^-f(x^)\) exists \(\forall x\in (a, b]\),
+    \item \(D^-f(x)\) exists \(\forall x\in (a, b]\),
     \item \(f\) is differentiable on \((a, b)\) except at most a finite number of points.
 \end{itemize}
 
@@ -131,7 +130,7 @@ Recall that odd and even functions are defined by the conditions \(f(-x) = -f(x)
 
 The following elementary properties hold:
 \begin{itemize}
-    \item Odd \(\times\) Even \(=\) Even,
+    \item Odd \(\times\) Even \(=\) Odd,
     \item Odd \(\times\) Odd \(=\) Even,
     \item Even \(\times\) Even \(=\) Even,
     \item \(\int_{-L}^L Odd = 0\).
@@ -142,10 +141,10 @@ The following elementary properties hold:
 \paragraph{Pointwise convergence}
 Let \(f_k: \mathbb{R} \to \mathbb{R}\). \(f_k\) converges to \(f\) on
 \([a, b]\) pointwisely iff and only if for all \(x\in[a,b]\),
-\(f_k(x)\to f(x)\) as \(k\to infty\).
+\(f_k(x)\to f(x)\) as \(k\to \infty\).
 
 \paragraph{Epsilon Delta Definition Pointwise Convergence}
-For all \(x\in [a,b]\), \(\epsilon > 0, \exists K\) (which will depend on \(\epsilon, x\) such that
+For all \(x\in [a,b]\), \(\epsilon > 0, \exists K\) (which will depend on \(\epsilon, x\)) such that
 \[|f_k(x) - f(x)| \leq \epsilon \quad\forall k \geq K.\]
 
 \paragraph{Uniform Convergence}
@@ -178,7 +177,7 @@ We may extend this to define norm-convergence for any norm.
 \paragraph{Extending Norm Convergence to L-2}
 Recall from the previous paragraph that norm-convergence is defined as follows:
 \[\lim_{k\to\infty} ||f_k - f|| = 0.\]
-As such, \(L^2\) norm convergence, also knows as mean square convergence
+As such, \(L^2\) norm convergence, also known as mean square convergence
 is equivalent to the following
 \[\lim_{k\to\infty} \int_a^b [f_k(x)-f(x)]^2 dx = 0.\]
 
